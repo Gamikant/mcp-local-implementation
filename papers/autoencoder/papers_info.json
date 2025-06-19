@@ -1,0 +1,58 @@
+{
+  "2412.07811v1": {
+    "title": "Adversarial Autoencoders in Operator Learning",
+    "authors": [
+      "Dustin Enyeart",
+      "Guang Lin"
+    ],
+    "summary": "DeepONets and Koopman autoencoders are two prevalent neural operator\narchitectures. These architectures are autoencoders. An adversarial addition to\nan autoencoder have improved performance of autoencoders in various areas of\nmachine learning. In this paper, the use an adversarial addition for these two\nneural operator architectures is studied.",
+    "pdf_url": "http://arxiv.org/pdf/2412.07811v1",
+    "published": "2024-12-10"
+  },
+  "1907.03278v1": {
+    "title": "Stacked autoencoders based machine learning for noise reduction and signal reconstruction in geophysical data",
+    "authors": [
+      "Debjani Bhowick",
+      "Deepak K. Gupta",
+      "Saumen Maiti",
+      "Uma Shankar"
+    ],
+    "summary": "Autoencoders are neural network formulations where the input and output of\nthe network are identical and the goal is to identify the hidden representation\nin the provided datasets. Generally, autoencoders project the data nonlinearly\nonto a lower dimensional hidden space, where the important features get\nhighlighted and interpretation of the data becomes easier. Recent studies have\nshown that even in the presence of noise in the input data, autoencoders can be\ntrained to reconstruct the noisefre...",
+    "pdf_url": "http://arxiv.org/pdf/1907.03278v1",
+    "published": "2019-07-07"
+  },
+  "2107.00002v2": {
+    "title": "Cascade Decoders-Based Autoencoders for Image Reconstruction",
+    "authors": [
+      "Honggui Li",
+      "Dimitri Galayko",
+      "Maria Trocan",
+      "Mohamad Sawan"
+    ],
+    "summary": "Autoencoders are composed of coding and decoding units, hence they hold the\ninherent potential of high-performance data compression and signal compressed\nsensing. The main disadvantages of current autoencoders comprise the following\nseveral aspects: the research objective is not data reconstruction but feature\nrepresentation; the performance evaluation of data recovery is neglected; it is\nhard to achieve lossless data reconstruction by pure autoencoders, even by pure\ndeep learning. This paper ai...",
+    "pdf_url": "http://arxiv.org/pdf/2107.00002v2",
+    "published": "2021-06-29"
+  },
+  "2005.10750v1": {
+    "title": "Revisiting Role of Autoencoders in Adversarial Settings",
+    "authors": [
+      "Byeong Cheon Kim",
+      "Jung Uk Kim",
+      "Hakmin Lee",
+      "Yong Man Ro"
+    ],
+    "summary": "To combat against adversarial attacks, autoencoder structure is widely used\nto perform denoising which is regarded as gradient masking. In this paper, we\nrevisit the role of autoencoders in adversarial settings. Through the\ncomprehensive experimental results and analysis, this paper presents the\ninherent property of adversarial robustness in the autoencoders. We also found\nthat autoencoders may use robust features that cause inherent adversarial\nrobustness. We believe that our discovery of the a...",
+    "pdf_url": "http://arxiv.org/pdf/2005.10750v1",
+    "published": "2020-05-21"
+  },
+  "2308.13536v1": {
+    "title": "Implicit ZCA Whitening Effects of Linear Autoencoders for Recommendation",
+    "authors": [
+      "Katsuhiko Hayashi",
+      "Kazuma Onishi"
+    ],
+    "summary": "Recently, in the field of recommendation systems, linear regression\n(autoencoder) models have been investigated as a way to learn item similarity.\nIn this paper, we show a connection between a linear autoencoder model and ZCA\nwhitening for recommendation data. In particular, we show that the dual form\nsolution of a linear autoencoder model actually has ZCA whitening effects on\nfeature vectors of items, while items are considered as input features in the\nprimal problem of the autoencoder/regressi...",
+    "pdf_url": "http://arxiv.org/pdf/2308.13536v1",
+    "published": "2023-08-15"
+  }
+}

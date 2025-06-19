@@ -1,0 +1,325 @@
+2025-06-19 15:26:43,348 - __main__ - INFO - Initializing MCP Chatbot...
+2025-06-19 15:26:43,371 - mcp_host - INFO - Started MCP server: research
+2025-06-19 15:26:43,405 - mcp_host - INFO - Started MCP server: file
+2025-06-19 15:26:43,429 - mcp_host - INFO - Started MCP server: calculator
+2025-06-19 15:26:43,448 - __main__ - INFO - MCP Chatbot initialized successfully!
+2025-06-19 15:27:09,455 - __main__ - INFO - Calling tool search_engine on server RESEARCH_SERVER with args: {'query': 'research topic'}
+2025-06-19 15:27:09,456 - mcp_host - ERROR - Server RESEARCH_SERVER not found
+2025-06-19 15:27:31,334 - __main__ - INFO - Calling tool search_paper on server RESEARCH_SERVER with args: {'query': 'math'}
+2025-06-19 15:27:31,334 - mcp_host - ERROR - Server RESEARCH_SERVER not found
+2025-06-19 15:31:03,687 - mcp_host - INFO - Stopped MCP server: research
+2025-06-19 15:31:03,689 - mcp_host - INFO - Stopped MCP server: file
+2025-06-19 15:31:03,689 - mcp_host - INFO - Stopped MCP server: calculator
+2025-06-19 15:31:03,689 - __main__ - INFO - Chatbot cleanup completed
+2025-06-19 15:31:10,717 - __main__ - INFO - Initializing MCP Chatbot...
+2025-06-19 15:31:10,727 - mcp_host - INFO - Started MCP server: research
+2025-06-19 15:31:10,744 - mcp_host - INFO - Started MCP server: file
+2025-06-19 15:31:10,761 - mcp_host - INFO - Started MCP server: calculator
+2025-06-19 15:31:10,777 - __main__ - INFO - MCP Chatbot initialized successfully!
+2025-06-19 15:31:40,277 - __main__ - INFO - Calling tool research_server on server RESEARCH_SERVER with args: {}
+2025-06-19 15:31:40,277 - mcp_host - ERROR - Server RESEARCH_SERVER not found
+2025-06-19 15:32:17,967 - mcp_host - INFO - Stopped MCP server: research
+2025-06-19 15:32:17,967 - mcp_host - INFO - Stopped MCP server: file
+2025-06-19 15:32:17,967 - mcp_host - INFO - Stopped MCP server: calculator
+2025-06-19 15:32:17,968 - __main__ - INFO - Chatbot cleanup completed
+2025-06-19 15:32:21,680 - __main__ - INFO - Initializing MCP Chatbot...
+2025-06-19 15:32:21,690 - mcp_host - INFO - Started MCP server: research
+2025-06-19 15:32:21,707 - mcp_host - INFO - Started MCP server: file
+2025-06-19 15:32:21,725 - mcp_host - INFO - Started MCP server: calculator
+2025-06-19 15:32:21,741 - __main__ - INFO - MCP Chatbot initialized successfully!
+2025-06-19 15:32:30,820 - __main__ - INFO - Calling tool search_papers on server RESEARCH_SERVER with args: {'query': 'machine learning'}
+2025-06-19 15:32:30,820 - mcp_host - ERROR - Server RESEARCH_SERVER not found
+2025-06-19 15:38:39,730 - mcp_host - INFO - Stopped MCP server: research
+2025-06-19 15:38:39,730 - mcp_host - INFO - Stopped MCP server: file
+2025-06-19 15:38:39,730 - mcp_host - INFO - Stopped MCP server: calculator
+2025-06-19 15:38:39,731 - __main__ - INFO - Chatbot cleanup completed
+2025-06-19 15:38:42,374 - __main__ - INFO - Initializing MCP Chatbot...
+2025-06-19 15:38:42,383 - mcp_host - INFO - Started MCP server: research
+2025-06-19 15:38:45,287 - mcp_host - INFO - Initialized MCP server: research
+2025-06-19 15:38:45,297 - mcp_host - INFO - Started MCP server: file
+2025-06-19 15:38:47,099 - mcp_host - INFO - Initialized MCP server: file
+2025-06-19 15:38:47,104 - mcp_host - INFO - Started MCP server: calculator
+2025-06-19 15:38:47,554 - mcp_host - INFO - Initialized MCP server: calculator
+2025-06-19 15:38:47,557 - __main__ - INFO - MCP Chatbot initialized successfully!
+2025-06-19 15:39:39,665 - mcp_host - INFO - Stopped MCP server: research
+2025-06-19 15:39:39,669 - mcp_host - INFO - Stopped MCP server: file
+2025-06-19 15:39:39,674 - mcp_host - INFO - Stopped MCP server: calculator
+2025-06-19 15:39:39,674 - __main__ - INFO - Chatbot cleanup completed
+2025-06-19 15:42:00,616 - __main__ - INFO - Initializing MCP Chatbot...
+2025-06-19 15:42:00,638 - mcp_host - INFO - Started MCP server: research
+2025-06-19 15:42:01,098 - mcp_host - INFO - Initialized MCP server: research
+2025-06-19 15:42:01,102 - mcp_host - INFO - Started MCP server: file
+2025-06-19 15:42:01,531 - mcp_host - INFO - Initialized MCP server: file
+2025-06-19 15:42:01,536 - mcp_host - INFO - Started MCP server: calculator
+2025-06-19 15:42:01,965 - mcp_host - INFO - Initialized MCP server: calculator
+2025-06-19 15:42:01,968 - __main__ - INFO - MCP Chatbot initialized successfully!
+2025-06-19 15:42:16,014 - __main__ - INFO - Calling tool paper_search on server research with args: {'query': 'machine learning'}
+2025-06-19 15:46:06,002 - mcp_host - INFO - Stopped MCP server: research
+2025-06-19 15:46:06,006 - mcp_host - INFO - Stopped MCP server: file
+2025-06-19 15:46:06,011 - mcp_host - INFO - Stopped MCP server: calculator
+2025-06-19 15:46:06,011 - __main__ - INFO - Chatbot cleanup completed
+2025-06-19 15:46:08,830 - __main__ - INFO - Initializing MCP Chatbot...
+2025-06-19 15:46:08,841 - mcp_host - INFO - Started MCP server: research
+2025-06-19 15:46:09,228 - mcp_host - INFO - Initialized MCP server: research
+2025-06-19 15:46:09,232 - mcp_host - INFO - Started MCP server: file
+2025-06-19 15:46:09,642 - mcp_host - INFO - Initialized MCP server: file
+2025-06-19 15:46:09,647 - mcp_host - INFO - Started MCP server: calculator
+2025-06-19 15:46:10,042 - mcp_host - INFO - Initialized MCP server: calculator
+2025-06-19 15:46:10,045 - __main__ - INFO - MCP Chatbot initialized successfully!
+2025-06-19 15:46:23,656 - __main__ - INFO - Calling tool paper_search on server research with args: {'query': 'machine learning'}
+2025-06-19 15:47:09,443 - mcp_host - INFO - Stopped MCP server: research
+2025-06-19 15:47:09,448 - mcp_host - INFO - Stopped MCP server: file
+2025-06-19 15:47:09,452 - mcp_host - INFO - Stopped MCP server: calculator
+2025-06-19 15:47:09,453 - __main__ - INFO - Chatbot cleanup completed
+2025-06-19 15:47:24,109 - __main__ - INFO - Initializing MCP Chatbot...
+2025-06-19 15:47:24,120 - mcp_host - INFO - Started MCP server: research
+2025-06-19 15:47:24,503 - mcp_host - INFO - Initialized MCP server: research
+2025-06-19 15:47:24,508 - mcp_host - INFO - Started MCP server: file
+2025-06-19 15:47:24,943 - mcp_host - INFO - Initialized MCP server: file
+2025-06-19 15:47:24,948 - mcp_host - INFO - Started MCP server: calculator
+2025-06-19 15:47:25,378 - mcp_host - INFO - Initialized MCP server: calculator
+2025-06-19 15:47:25,381 - __main__ - INFO - MCP Chatbot initialized successfully!
+2025-06-19 15:47:35,678 - __main__ - INFO - Calling tool paper_search on server research with args: {'query': 'machine learning'}
+2025-06-19 15:59:10,861 - mcp_host - INFO - Stopped MCP server: research
+2025-06-19 15:59:10,872 - mcp_host - INFO - Stopped MCP server: file
+2025-06-19 15:59:10,882 - mcp_host - INFO - Stopped MCP server: calculator
+2025-06-19 15:59:10,882 - __main__ - INFO - Chatbot cleanup completed
+2025-06-19 15:59:25,537 - __main__ - INFO - Initializing MCP Chatbot...
+2025-06-19 15:59:25,559 - mcp_host - INFO - Started MCP server: research
+2025-06-19 15:59:28,082 - mcp_host - INFO - Initialized MCP server: research
+2025-06-19 15:59:28,082 - mcp_host - INFO - Sending tools/list request to research: {'jsonrpc': '2.0', 'id': 2, 'method': 'tools/list'}
+2025-06-19 15:59:28,088 - mcp_host - INFO - Tools response from research: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}
+2025-06-19 15:59:28,088 - mcp_host - WARNING - No tools result from research, response: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}
+2025-06-19 15:59:28,092 - mcp_host - INFO - Started MCP server: file
+2025-06-19 15:59:28,600 - mcp_host - INFO - Initialized MCP server: file
+2025-06-19 15:59:28,600 - mcp_host - INFO - Sending tools/list request to file: {'jsonrpc': '2.0', 'id': 2, 'method': 'tools/list'}
+2025-06-19 15:59:28,603 - mcp_host - INFO - Tools response from file: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}
+2025-06-19 15:59:28,603 - mcp_host - WARNING - No tools result from file, response: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}
+2025-06-19 15:59:28,604 - mcp_host - INFO - Started MCP server: calculator
+2025-06-19 15:59:29,042 - mcp_host - INFO - Initialized MCP server: calculator
+2025-06-19 15:59:29,043 - mcp_host - INFO - Sending tools/list request to calculator: {'jsonrpc': '2.0', 'id': 2, 'method': 'tools/list'}
+2025-06-19 15:59:29,045 - mcp_host - INFO - Tools response from calculator: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}
+2025-06-19 15:59:29,045 - mcp_host - WARNING - No tools result from calculator, response: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}
+2025-06-19 15:59:29,045 - __main__ - INFO - MCP Chatbot initialized successfully!
+2025-06-19 16:09:44,410 - mcp_host - INFO - Stopped MCP server: research
+2025-06-19 16:09:44,416 - mcp_host - INFO - Stopped MCP server: file
+2025-06-19 16:09:44,420 - mcp_host - INFO - Stopped MCP server: calculator
+2025-06-19 16:09:44,421 - __main__ - INFO - Chatbot cleanup completed
+2025-06-19 16:09:50,115 - __main__ - INFO - Initializing MCP Chatbot...
+2025-06-19 16:09:50,135 - mcp_host - INFO - Started MCP server: research
+2025-06-19 16:09:52,946 - mcp_host - INFO - Initialized MCP server: research
+2025-06-19 16:09:52,946 - mcp_host - INFO - Sending tools/list request to research: {'jsonrpc': '2.0', 'id': 2, 'method': 'tools/list', 'params': {}}
+2025-06-19 16:09:53,048 - mcp_host - INFO - Tools response from research: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}
+2025-06-19 16:09:53,049 - mcp_host - WARNING - No tools result from research, response: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}
+2025-06-19 16:09:53,055 - mcp_host - INFO - Started MCP server: file
+2025-06-19 16:09:53,657 - mcp_host - INFO - Initialized MCP server: file
+2025-06-19 16:09:53,657 - mcp_host - INFO - Sending tools/list request to file: {'jsonrpc': '2.0', 'id': 2, 'method': 'tools/list', 'params': {}}
+2025-06-19 16:09:53,759 - mcp_host - INFO - Tools response from file: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}
+2025-06-19 16:09:53,759 - mcp_host - WARNING - No tools result from file, response: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}
+2025-06-19 16:09:53,762 - mcp_host - INFO - Started MCP server: calculator
+2025-06-19 16:09:54,282 - mcp_host - INFO - Initialized MCP server: calculator
+2025-06-19 16:09:54,282 - mcp_host - INFO - Sending tools/list request to calculator: {'jsonrpc': '2.0', 'id': 2, 'method': 'tools/list', 'params': {}}
+2025-06-19 16:09:54,384 - mcp_host - INFO - Tools response from calculator: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}
+2025-06-19 16:09:54,384 - mcp_host - WARNING - No tools result from calculator, response: {'jsonrpc': '2.0', 'id': 2, 'error': {'code': -32602, 'message': 'Invalid request parameters', 'data': ''}}
+2025-06-19 16:09:54,384 - __main__ - INFO - MCP Chatbot initialized successfully!
+2025-06-19 16:30:40,458 - mcp_host - INFO - Stopped MCP server: research
+2025-06-19 16:30:40,469 - mcp_host - INFO - Stopped MCP server: file
+2025-06-19 16:30:40,478 - mcp_host - INFO - Stopped MCP server: calculator
+2025-06-19 16:30:40,479 - __main__ - INFO - Chatbot cleanup completed
+2025-06-19 16:31:55,920 - __main__ - INFO - Initializing MCP Chatbot...
+2025-06-19 16:31:55,941 - mcp_host - INFO - Started MCP server: research
+2025-06-19 16:31:56,544 - mcp_host - INFO - Initialized MCP server: research
+2025-06-19 16:31:56,647 - mcp_host - WARNING - No tools result from research, response: {'jsonrpc': '2.0', 'id': None, 'error': {'code': -32601, 'message': 'Unknown method: notifications/initialized'}}
+2025-06-19 16:31:56,653 - mcp_host - INFO - Started MCP server: file
+2025-06-19 16:31:57,257 - mcp_host - INFO - Initialized MCP server: file
+2025-06-19 16:31:57,360 - mcp_host - WARNING - No tools result from file, response: {'jsonrpc': '2.0', 'id': None, 'error': {'code': -32601, 'message': 'Unknown method: notifications/initialized'}}
+2025-06-19 16:31:57,367 - mcp_host - INFO - Started MCP server: calculator
+2025-06-19 16:31:57,970 - mcp_host - INFO - Initialized MCP server: calculator
+2025-06-19 16:31:58,073 - mcp_host - WARNING - No tools result from calculator, response: {'jsonrpc': '2.0', 'id': None, 'error': {'code': -32601, 'message': 'Unknown method: notifications/initialized'}}
+2025-06-19 16:31:59,075 - __main__ - INFO - MCP Chatbot initialized successfully!
+2025-06-19 16:36:19,029 - mcp_host - INFO - Stopped MCP server: research
+2025-06-19 16:36:19,032 - mcp_host - INFO - Stopped MCP server: file
+2025-06-19 16:36:19,034 - mcp_host - INFO - Stopped MCP server: calculator
+2025-06-19 16:36:19,035 - __main__ - INFO - Chatbot cleanup completed
+2025-06-19 16:36:28,536 - __main__ - INFO - Initializing MCP Chatbot...
+2025-06-19 16:36:28,546 - mcp_host - INFO - Started MCP server: research
+2025-06-19 16:36:29,048 - mcp_host - ERROR - MCP server research is not running
+2025-06-19 16:36:29,049 - mcp_host - ERROR - Failed to initialize research: None
+2025-06-19 16:36:29,055 - mcp_host - INFO - Started MCP server: file
+2025-06-19 16:36:29,658 - mcp_host - INFO - Initialized MCP server: file
+2025-06-19 16:36:29,760 - mcp_host - INFO - Got 4 tools from file: ['list_files', 'read_file', 'write_file', 'delete_file']
+2025-06-19 16:36:29,767 - mcp_host - INFO - Started MCP server: calculator
+2025-06-19 16:36:30,371 - mcp_host - INFO - Initialized MCP server: calculator
+2025-06-19 16:36:30,473 - mcp_host - WARNING - No tools result from calculator, response: {'jsonrpc': '2.0', 'id': None, 'error': {'code': -32601, 'message': 'Unknown method: notifications/initialized'}}
+2025-06-19 16:36:31,475 - __main__ - INFO - MCP Chatbot initialized successfully!
+2025-06-19 16:37:17,185 - __main__ - INFO - Calling tool list_files on server file with args: {}
+2025-06-19 16:37:43,124 - __main__ - INFO - Calling tool list_files on server file with args: {'directory': '/downloads'}
+2025-06-19 16:45:03,904 - mcp_host - INFO - Stopped MCP server: research
+2025-06-19 16:45:03,911 - mcp_host - INFO - Stopped MCP server: file
+2025-06-19 16:45:03,916 - mcp_host - INFO - Stopped MCP server: calculator
+2025-06-19 16:45:03,917 - __main__ - INFO - Chatbot cleanup completed
+2025-06-19 16:45:15,703 - __main__ - INFO - Initializing MCP Chatbot...
+2025-06-19 16:45:15,712 - mcp_host - INFO - Started MCP server: research
+2025-06-19 16:45:16,316 - mcp_host - INFO - Initialized MCP server: research
+2025-06-19 16:45:16,419 - mcp_host - INFO - Got 2 tools from research: ['search_papers', 'extract_info']
+2025-06-19 16:45:16,425 - mcp_host - INFO - Started MCP server: file
+2025-06-19 16:45:16,927 - mcp_host - ERROR - MCP server file is not running
+2025-06-19 16:45:16,927 - mcp_host - ERROR - Failed to initialize file: None
+2025-06-19 16:45:16,934 - mcp_host - INFO - Started MCP server: calculator
+2025-06-19 16:45:17,538 - mcp_host - INFO - Initialized MCP server: calculator
+2025-06-19 16:45:17,640 - mcp_host - INFO - Got 6 tools from calculator: ['add', 'subtract', 'multiply', 'divide', 'power', 'square_root']
+2025-06-19 16:45:18,642 - __main__ - INFO - MCP Chatbot initialized successfully!
+2025-06-19 16:45:47,127 - __main__ - INFO - Calling tool search_papers on server research with args: {'topic': 'machine learning'}
+2025-06-19 16:46:00,735 - __main__ - INFO - Calling tool search_papers on server research with args: {'topic': 'machine learning'}
+2025-06-19 16:46:24,819 - __main__ - INFO - Calling tool search_papers on server research with args: {'query': 'machine learning'}
+2025-06-19 16:58:59,357 - mcp_host - INFO - Stopped MCP server: research
+2025-06-19 16:58:59,359 - mcp_host - INFO - Stopped MCP server: file
+2025-06-19 16:58:59,361 - mcp_host - INFO - Stopped MCP server: calculator
+2025-06-19 16:58:59,361 - __main__ - INFO - Chatbot cleanup completed
+2025-06-19 16:59:37,503 - __main__ - INFO - Initializing MCP Chatbot...
+2025-06-19 16:59:37,513 - mcp_host - INFO - Started MCP server: research
+2025-06-19 16:59:38,117 - mcp_host - INFO - Initialized MCP server: research
+2025-06-19 16:59:38,219 - mcp_host - INFO - Got 2 tools from research: ['search_papers', 'extract_info']
+2025-06-19 16:59:38,226 - mcp_host - INFO - Started MCP server: file
+2025-06-19 16:59:38,728 - mcp_host - ERROR - MCP server file is not running
+2025-06-19 16:59:38,729 - mcp_host - ERROR - Failed to initialize file: None
+2025-06-19 16:59:38,736 - mcp_host - INFO - Started MCP server: calculator
+2025-06-19 16:59:39,339 - mcp_host - INFO - Initialized MCP server: calculator
+2025-06-19 16:59:39,442 - mcp_host - INFO - Got 6 tools from calculator: ['add', 'subtract', 'multiply', 'divide', 'power', 'square_root']
+2025-06-19 16:59:40,444 - __main__ - INFO - MCP Chatbot initialized successfully!
+2025-06-19 17:00:10,260 - __main__ - INFO - Calling tool search_papers on server research with args: {'topic': 'machine learning'}
+2025-06-19 17:00:54,194 - __main__ - INFO - Calling tool search_papers on server research with args: {'query': 'Indian culture'}
+2025-06-19 17:02:25,878 - __main__ - INFO - Calling tool add on server calculator with args: {'a': 2, 'b': 3}
+2025-06-19 17:18:40,742 - mcp_host - INFO - Stopped MCP server: research
+2025-06-19 17:18:40,742 - mcp_host - INFO - Stopped MCP server: file
+2025-06-19 17:18:40,744 - mcp_host - INFO - Stopped MCP server: calculator
+2025-06-19 17:18:40,745 - __main__ - INFO - Chatbot cleanup completed
+2025-06-19 17:24:06,775 - __main__ - INFO - Initializing MCP Chatbot...
+2025-06-19 17:24:06,795 - mcp_host - INFO - Started MCP server: research
+2025-06-19 17:24:07,398 - mcp_host - INFO - Initialized MCP server: research
+2025-06-19 17:24:07,500 - mcp_host - INFO - Got 2 tools from research: ['search_papers', 'extract_info']
+2025-06-19 17:24:07,506 - mcp_host - INFO - Started MCP server: file
+2025-06-19 17:24:08,110 - mcp_host - INFO - Initialized MCP server: file
+2025-06-19 17:24:08,212 - mcp_host - INFO - Got 4 tools from file: ['list_files', 'read_file', 'write_file', 'delete_file']
+2025-06-19 17:24:08,219 - mcp_host - INFO - Started MCP server: calculator
+2025-06-19 17:24:08,823 - mcp_host - INFO - Initialized MCP server: calculator
+2025-06-19 17:24:08,925 - mcp_host - INFO - Got 6 tools from calculator: ['add', 'subtract', 'multiply', 'divide', 'power', 'square_root']
+2025-06-19 17:24:09,926 - __main__ - INFO - MCP Chatbot initialized successfully!
+2025-06-19 17:24:34,491 - __main__ - INFO - Calling tool search_papers on server research with args: {'topic': ''}
+2025-06-19 17:24:34,491 - __main__ - ERROR - Error handling tool call: MCPHost.call_tool() takes 3 positional arguments but 4 were given
+2025-06-19 17:25:02,083 - __main__ - INFO - Calling tool search_papers on server research with args: {'topic': 'deep learning'}
+2025-06-19 17:25:02,083 - __main__ - ERROR - Error handling tool call: MCPHost.call_tool() takes 3 positional arguments but 4 were given
+2025-06-19 17:25:23,081 - __main__ - INFO - Calling tool search_papers on server research with args: {'topic': 'deep learning'}
+2025-06-19 17:25:23,081 - __main__ - ERROR - Error handling tool call: MCPHost.call_tool() takes 3 positional arguments but 4 were given
+2025-06-19 17:28:44,425 - mcp_host - INFO - Stopped MCP server: research
+2025-06-19 17:28:44,427 - mcp_host - INFO - Stopped MCP server: file
+2025-06-19 17:28:44,429 - mcp_host - INFO - Stopped MCP server: calculator
+2025-06-19 17:28:44,429 - __main__ - INFO - Chatbot cleanup completed
+2025-06-19 17:28:55,727 - __main__ - INFO - Initializing MCP Chatbot...
+2025-06-19 17:28:55,736 - mcp_host - INFO - Started MCP server: research
+2025-06-19 17:28:56,340 - mcp_host - INFO - Initialized MCP server: research
+2025-06-19 17:28:56,442 - mcp_host - INFO - Got 2 tools from research: ['search_papers', 'extract_info']
+2025-06-19 17:28:56,448 - mcp_host - INFO - Started MCP server: file
+2025-06-19 17:28:57,052 - mcp_host - INFO - Initialized MCP server: file
+2025-06-19 17:28:57,154 - mcp_host - INFO - Got 4 tools from file: ['list_files', 'read_file', 'write_file', 'delete_file']
+2025-06-19 17:28:57,161 - mcp_host - INFO - Started MCP server: calculator
+2025-06-19 17:28:57,765 - mcp_host - INFO - Initialized MCP server: calculator
+2025-06-19 17:28:57,867 - mcp_host - INFO - Got 6 tools from calculator: ['add', 'subtract', 'multiply', 'divide', 'power', 'square_root']
+2025-06-19 17:28:58,869 - __main__ - INFO - MCP Chatbot initialized successfully!
+2025-06-19 17:29:11,014 - __main__ - INFO - Calling tool search_papers on server research with args: {'topic': 'deep learning'}
+2025-06-19 17:29:11,014 - mcp_host - INFO - Sending tool request to research: {'jsonrpc': '2.0', 'id': 3, 'method': 'tools/call', 'params': {'name': 'search_papers', 'arguments': {'topic': 'deep learning'}}}
+2025-06-19 17:29:24,216 - mcp_host - INFO - Tool response from research: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': 'Found 5 papers: 1805.08355v1, 1806.01756v1, 1908.02130v1, 1812.05448v4, 1901.02354v2'}]}}
+2025-06-19 17:29:24,216 - __main__ - INFO - Raw tool result: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': 'Found 5 papers: 1805.08355v1, 1806.01756v1, 1908.02130v1, 1812.05448v4, 1901.02354v2'}]}}
+2025-06-19 17:35:04,242 - mcp_host - INFO - Stopped MCP server: research
+2025-06-19 17:35:04,247 - mcp_host - INFO - Stopped MCP server: file
+2025-06-19 17:35:04,252 - mcp_host - INFO - Stopped MCP server: calculator
+2025-06-19 17:35:04,253 - __main__ - INFO - Chatbot cleanup completed
+2025-06-19 17:35:12,917 - __main__ - INFO - Initializing MCP Chatbot...
+2025-06-19 17:35:12,927 - mcp_host - INFO - Started MCP server: research
+2025-06-19 17:35:13,531 - mcp_host - INFO - Initialized MCP server: research
+2025-06-19 17:35:13,633 - mcp_host - INFO - Got 2 tools from research: ['search_papers', 'extract_info']
+2025-06-19 17:35:13,641 - mcp_host - INFO - Started MCP server: file
+2025-06-19 17:35:14,245 - mcp_host - INFO - Initialized MCP server: file
+2025-06-19 17:35:14,347 - mcp_host - INFO - Got 4 tools from file: ['list_files', 'read_file', 'write_file', 'delete_file']
+2025-06-19 17:35:14,354 - mcp_host - INFO - Started MCP server: calculator
+2025-06-19 17:35:14,957 - mcp_host - INFO - Initialized MCP server: calculator
+2025-06-19 17:35:15,060 - mcp_host - INFO - Got 6 tools from calculator: ['add', 'subtract', 'multiply', 'divide', 'power', 'square_root']
+2025-06-19 17:35:16,062 - __main__ - INFO - MCP Chatbot initialized successfully!
+2025-06-19 17:35:43,184 - __main__ - INFO - Calling tool list_files on server file with args: {}
+2025-06-19 17:35:43,184 - mcp_host - INFO - Sending tool request to file: {'jsonrpc': '2.0', 'id': 3, 'method': 'tools/call', 'params': {'name': 'list_files', 'arguments': {}}}
+2025-06-19 17:35:43,286 - mcp_host - INFO - Tool response from file: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': "['README.md', 'chatbot/', 'config/', 'data/', 'logs/', 'mcp_servers/', 'papers/', 'requirements.txt', 'test_servers.py']"}]}}
+2025-06-19 17:35:43,287 - __main__ - INFO - Raw tool result: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': "['README.md', 'chatbot/', 'config/', 'data/', 'logs/', 'mcp_servers/', 'papers/', 'requirements.txt', 'test_servers.py']"}]}}
+2025-06-19 17:35:59,234 - __main__ - INFO - Calling tool multiply on server calculator with args: {'a': 5, 'b': 7}
+2025-06-19 17:35:59,235 - mcp_host - INFO - Sending tool request to calculator: {'jsonrpc': '2.0', 'id': 3, 'method': 'tools/call', 'params': {'name': 'multiply', 'arguments': {'a': 5, 'b': 7}}}
+2025-06-19 17:35:59,337 - mcp_host - INFO - Tool response from calculator: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': '35'}]}}
+2025-06-19 17:35:59,337 - __main__ - INFO - Raw tool result: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': '35'}]}}
+2025-06-19 17:36:18,235 - __main__ - INFO - Calling tool search_papers on server research with args: {'topic': 'machine learning'}
+2025-06-19 17:36:18,236 - mcp_host - INFO - Sending tool request to research: {'jsonrpc': '2.0', 'id': 3, 'method': 'tools/call', 'params': {'name': 'search_papers', 'arguments': {'topic': 'machine learning'}}}
+2025-06-19 17:36:36,754 - mcp_host - INFO - Tool response from research: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': "Error searching papers: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))"}]}}
+2025-06-19 17:36:36,755 - __main__ - INFO - Raw tool result: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': "Error searching papers: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))"}]}}
+2025-06-19 17:36:52,122 - __main__ - INFO - Calling tool search_papers on server research with args: {'topic': 'maths'}
+2025-06-19 17:36:52,122 - mcp_host - INFO - Sending tool request to research: {'jsonrpc': '2.0', 'id': 3, 'method': 'tools/call', 'params': {'name': 'search_papers', 'arguments': {'topic': 'maths'}}}
+2025-06-19 17:36:54,578 - mcp_host - INFO - Tool response from research: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': "Error searching papers: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))"}]}}
+2025-06-19 17:36:54,579 - __main__ - INFO - Raw tool result: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': "Error searching papers: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))"}]}}
+2025-06-19 17:37:09,778 - mcp_host - INFO - Stopped MCP server: research
+2025-06-19 17:37:09,782 - mcp_host - INFO - Stopped MCP server: file
+2025-06-19 17:37:09,785 - mcp_host - INFO - Stopped MCP server: calculator
+2025-06-19 17:37:09,785 - __main__ - INFO - Chatbot cleanup completed
+2025-06-19 17:37:26,009 - __main__ - INFO - Initializing MCP Chatbot...
+2025-06-19 17:37:26,017 - mcp_host - INFO - Started MCP server: research
+2025-06-19 17:37:26,621 - mcp_host - INFO - Initialized MCP server: research
+2025-06-19 17:37:26,724 - mcp_host - INFO - Got 2 tools from research: ['search_papers', 'extract_info']
+2025-06-19 17:37:26,730 - mcp_host - INFO - Started MCP server: file
+2025-06-19 17:37:27,334 - mcp_host - INFO - Initialized MCP server: file
+2025-06-19 17:37:27,436 - mcp_host - INFO - Got 4 tools from file: ['list_files', 'read_file', 'write_file', 'delete_file']
+2025-06-19 17:37:27,443 - mcp_host - INFO - Started MCP server: calculator
+2025-06-19 17:37:28,046 - mcp_host - INFO - Initialized MCP server: calculator
+2025-06-19 17:37:28,148 - mcp_host - INFO - Got 6 tools from calculator: ['add', 'subtract', 'multiply', 'divide', 'power', 'square_root']
+2025-06-19 17:37:29,150 - __main__ - INFO - MCP Chatbot initialized successfully!
+2025-06-19 17:37:48,579 - __main__ - INFO - Calling tool search_papers on server research with args: {'topic': 'Indian culture'}
+2025-06-19 17:37:48,579 - mcp_host - INFO - Sending tool request to research: {'jsonrpc': '2.0', 'id': 3, 'method': 'tools/call', 'params': {'name': 'search_papers', 'arguments': {'topic': 'Indian culture'}}}
+2025-06-19 17:37:51,144 - mcp_host - INFO - Tool response from research: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': "Error searching papers: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))"}]}}
+2025-06-19 17:37:51,145 - __main__ - INFO - Raw tool result: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': "Error searching papers: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))"}]}}
+2025-06-19 17:38:07,120 - __main__ - INFO - Calling tool multiply on server calculator with args: {'a': 5.66, 'b': 3.43}
+2025-06-19 17:38:07,120 - mcp_host - INFO - Sending tool request to calculator: {'jsonrpc': '2.0', 'id': 3, 'method': 'tools/call', 'params': {'name': 'multiply', 'arguments': {'a': 5.66, 'b': 3.43}}}
+2025-06-19 17:38:07,222 - mcp_host - INFO - Tool response from calculator: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': '19.413800000000002'}]}}
+2025-06-19 17:38:07,223 - __main__ - INFO - Raw tool result: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': '19.413800000000002'}]}}
+2025-06-19 17:38:34,815 - __main__ - INFO - Calling tool list_files on server file with args: {'directory': 'mcp_servers'}
+2025-06-19 17:38:34,815 - mcp_host - INFO - Sending tool request to file: {'jsonrpc': '2.0', 'id': 3, 'method': 'tools/call', 'params': {'name': 'list_files', 'arguments': {'directory': 'mcp_servers'}}}
+2025-06-19 17:38:34,917 - mcp_host - INFO - Tool response from file: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': "['__init__.py', 'calculator_server.py', 'file_server.py', 'research_server.py']"}]}}
+2025-06-19 17:38:34,918 - __main__ - INFO - Raw tool result: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': "['__init__.py', 'calculator_server.py', 'file_server.py', 'research_server.py']"}]}}
+2025-06-19 17:46:16,191 - mcp_host - INFO - Stopped MCP server: research
+2025-06-19 17:46:16,193 - mcp_host - INFO - Stopped MCP server: file
+2025-06-19 17:46:16,195 - mcp_host - INFO - Stopped MCP server: calculator
+2025-06-19 17:46:16,195 - __main__ - INFO - Chatbot cleanup completed
+2025-06-19 17:48:07,120 - __main__ - INFO - Initializing MCP Chatbot...
+2025-06-19 17:48:07,130 - mcp_host - INFO - Started MCP server: research
+2025-06-19 17:48:07,734 - mcp_host - INFO - Initialized MCP server: research
+2025-06-19 17:48:07,836 - mcp_host - INFO - Got 2 tools from research: ['search_papers', 'extract_info']
+2025-06-19 17:48:07,842 - mcp_host - INFO - Started MCP server: file
+2025-06-19 17:48:08,446 - mcp_host - INFO - Initialized MCP server: file
+2025-06-19 17:48:08,547 - mcp_host - INFO - Got 4 tools from file: ['list_files', 'read_file', 'write_file', 'delete_file']
+2025-06-19 17:48:08,552 - mcp_host - INFO - Started MCP server: calculator
+2025-06-19 17:48:09,155 - mcp_host - INFO - Initialized MCP server: calculator
+2025-06-19 17:48:09,257 - mcp_host - INFO - Got 6 tools from calculator: ['add', 'subtract', 'multiply', 'divide', 'power', 'square_root']
+2025-06-19 17:48:10,259 - __main__ - INFO - MCP Chatbot initialized successfully!
+2025-06-19 17:48:30,177 - __main__ - INFO - Calling tool list_files on server file with args: {}
+2025-06-19 17:48:30,178 - mcp_host - INFO - Sending tool request to file: {'jsonrpc': '2.0', 'id': 3, 'method': 'tools/call', 'params': {'name': 'list_files', 'arguments': {}}}
+2025-06-19 17:48:30,279 - mcp_host - INFO - Tool response from file: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': "['README.md', 'chatbot/', 'config/', 'data/', 'logs/', 'mcp_servers/', 'papers/', 'requirements.txt', 'test_servers.py']"}]}}
+2025-06-19 17:48:30,280 - __main__ - INFO - Raw tool result: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': "['README.md', 'chatbot/', 'config/', 'data/', 'logs/', 'mcp_servers/', 'papers/', 'requirements.txt', 'test_servers.py']"}]}}
+2025-06-19 17:48:44,478 - __main__ - INFO - Calling tool multiply on server calculator with args: {'a': 5, 'b': 7.2}
+2025-06-19 17:48:44,479 - mcp_host - INFO - Sending tool request to calculator: {'jsonrpc': '2.0', 'id': 3, 'method': 'tools/call', 'params': {'name': 'multiply', 'arguments': {'a': 5, 'b': 7.2}}}
+2025-06-19 17:48:44,580 - mcp_host - INFO - Tool response from calculator: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': '36.0'}]}}
+2025-06-19 17:48:44,581 - __main__ - INFO - Raw tool result: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': '36.0'}]}}
+2025-06-19 17:56:37,075 - __main__ - INFO - Calling tool list_files on server file with args: {}
+2025-06-19 17:56:37,076 - mcp_host - INFO - Sending tool request to file: {'jsonrpc': '2.0', 'id': 3, 'method': 'tools/call', 'params': {'name': 'list_files', 'arguments': {}}}
+2025-06-19 17:56:37,178 - mcp_host - INFO - Tool response from file: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': "['README.md', 'chatbot/', 'config/', 'data/', 'logs/', 'mcp_servers/', 'papers/', 'requirements.txt', 'test_servers.py']"}]}}
+2025-06-19 17:56:37,179 - __main__ - INFO - Raw tool result: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': "['README.md', 'chatbot/', 'config/', 'data/', 'logs/', 'mcp_servers/', 'papers/', 'requirements.txt', 'test_servers.py']"}]}}
+2025-06-19 17:57:19,071 - __main__ - INFO - Calling tool search_papers on server research with args: {'topic': 'autoencoder'}
+2025-06-19 17:57:19,071 - mcp_host - INFO - Sending tool request to research: {'jsonrpc': '2.0', 'id': 3, 'method': 'tools/call', 'params': {'name': 'search_papers', 'arguments': {'topic': 'autoencoder'}}}
+2025-06-19 17:57:49,077 - mcp_host - INFO - Tool response from research: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': 'Found 5 papers: 2412.07811v1, 1907.03278v1, 2107.00002v2, 2005.10750v1, 2308.13536v1'}]}}
+2025-06-19 17:57:49,078 - __main__ - INFO - Raw tool result: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': 'Found 5 papers: 2412.07811v1, 1907.03278v1, 2107.00002v2, 2005.10750v1, 2308.13536v1'}]}}
+2025-06-19 18:02:06,748 - mcp_host - INFO - Stopped MCP server: research
+2025-06-19 18:02:06,754 - mcp_host - INFO - Stopped MCP server: file
+2025-06-19 18:02:06,756 - mcp_host - INFO - Stopped MCP server: calculator
+2025-06-19 18:02:06,757 - __main__ - INFO - Chatbot cleanup completed

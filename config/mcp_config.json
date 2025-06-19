@@ -1,0 +1,28 @@
+{
+  "ollama": {
+    "base_url": "http://localhost:11434",
+    "model": "llama3.2",
+    "timeout": 30
+  },
+  "mcp_servers": {
+    "research": {
+      "command": "python",
+      "args": ["mcp_servers/research_server.py"],
+      "description": "Research paper search and management"
+    },
+    "file": {
+      "command": "python", 
+      "args": ["mcp_servers/file_server.py"],
+      "description": "File operations and management"
+    },
+    "calculator": {
+      "command": "python",
+      "args": ["mcp_servers/calculator_server.py"], 
+      "description": "Mathematical calculations"
+    }
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "logs/mcp_local.log"
+  }
+}

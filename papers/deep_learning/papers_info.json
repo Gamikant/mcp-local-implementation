@@ -1,0 +1,55 @@
+{
+  "1805.08355v1": {
+    "title": "Opening the black box of deep learning",
+    "authors": [
+      "Dian Lei",
+      "Xiaoxiao Chen",
+      "Jianfei Zhao"
+    ],
+    "summary": "The great success of deep learning shows that its technology contains\nprofound truth, and understanding its internal mechanism not only has important\nimplications for the development of its technology and effective application in\nvarious fields, but also provides meaningful insights into the understanding of\nhuman brain mechanism. At present, most of the theoretical research on deep\nlearning is based on mathematics. This dissertation proposes that the neural\nnetwork of deep learning is a physica...",
+    "pdf_url": "http://arxiv.org/pdf/1805.08355v1",
+    "published": "2018-05-22"
+  },
+  "1806.01756v1": {
+    "title": "Concept-Oriented Deep Learning",
+    "authors": [
+      "Daniel T Chang"
+    ],
+    "summary": "Concepts are the foundation of human deep learning, understanding, and\nknowledge integration and transfer. We propose concept-oriented deep learning\n(CODL) which extends (machine) deep learning with concept representations and\nconceptual understanding capability. CODL addresses some of the major\nlimitations of deep learning: interpretability, transferability, contextual\nadaptation, and requirement for lots of labeled training data. We discuss the\nmajor aspects of CODL including concept graph, co...",
+    "pdf_url": "http://arxiv.org/pdf/1806.01756v1",
+    "published": "2018-06-05"
+  },
+  "1908.02130v1": {
+    "title": "Deep learning research landscape & roadmap in a nutshell: past, present and future -- Towards deep cortical learning",
+    "authors": [
+      "Aras R. Dargazany"
+    ],
+    "summary": "The past, present and future of deep learning is presented in this work.\nGiven this landscape & roadmap, we predict that deep cortical learning will be\nthe convergence of deep learning & cortical learning which builds an artificial\ncortical column ultimately.",
+    "pdf_url": "http://arxiv.org/pdf/1908.02130v1",
+    "published": "2019-07-30"
+  },
+  "1812.05448v4": {
+    "title": "A First Look at Deep Learning Apps on Smartphones",
+    "authors": [
+      "Mengwei Xu",
+      "Jiawei Liu",
+      "Yuanqiang Liu",
+      "Felix Xiaozhu Lin",
+      "Yunxin Liu",
+      "Xuanzhe Liu"
+    ],
+    "summary": "We are in the dawn of deep learning explosion for smartphones. To bridge the\ngap between research and practice, we present the first empirical study on\n16,500 the most popular Android apps, demystifying how smartphone apps exploit\ndeep learning in the wild. To this end, we build a new static tool that\ndissects apps and analyzes their deep learning functions. Our study answers\nthreefold questions: what are the early adopter apps of deep learning, what do\nthey use deep learning for, and how do the...",
+    "pdf_url": "http://arxiv.org/pdf/1812.05448v4",
+    "published": "2018-11-08"
+  },
+  "1901.02354v2": {
+    "title": "Geometrization of deep networks for the interpretability of deep learning systems",
+    "authors": [
+      "Xiao Dong",
+      "Ling Zhou"
+    ],
+    "summary": "How to understand deep learning systems remains an open problem. In this\npaper we propose that the answer may lie in the geometrization of deep\nnetworks. Geometrization is a bridge to connect physics, geometry, deep network\nand quantum computation and this may result in a new scheme to reveal the rule\nof the physical world. By comparing the geometry of image matching and deep\nnetworks, we show that geometrization of deep networks can be used to\nunderstand existing deep learning systems and it ma...",
+    "pdf_url": "http://arxiv.org/pdf/1901.02354v2",
+    "published": "2019-01-06"
+  }
+}
