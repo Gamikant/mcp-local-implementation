@@ -3,7 +3,7 @@ import json
 import logging
 from pathlib import Path
 from ollama_client import OllamaClient
-from mcp_host import MCPHost
+from mcp_host import EnhancedMCPHost
 
 # Setup logging
 logging.basicConfig(
@@ -22,7 +22,7 @@ class MCPChatbot:
     
     def __init__(self):
         self.ollama = OllamaClient()
-        self.mcp_host = MCPHost()
+        self.mcp_host = EnhancedMCPHost()
         self.conversation_history = []
     
     async def initialize(self):
@@ -99,30 +99,25 @@ class MCPChatbot:
                     prompt += f"- {tool.get('name', 'unknown')}: {tool.get('description', 'No description')}\n"
         
         prompt += """
-    When a user asks for something that requires using these tools, you MUST respond with EXACTLY this JSON format:
-    {
-        "action": "use_tool",
-        "server": "server_name",
-        "tool": "exact_tool_name_from_above", 
-        "arguments": {...}
-    }
+        CRITICAL RULES:
+        - ALWAYS use "use_tool" as the action value
+        - Use EXACT server names: research, file, calculator, github
+        - Use EXACT tool names as listed above
+        - For research papers, use parameter "topic"
+        - For math operations, use parameters like "a", "b", "base", "exponent", etc.
+        - For file operations, use "directory", "filename", "content" as needed
+        - For GitHub operations, use "owner" and "repo" parameters (NOT "repository")
+        - NEVER provide explanatory text with the JSON - ONLY return the JSON object
 
-    CRITICAL RULES:
-    - ALWAYS use "use_tool" as the action value
-    - Use EXACT server names: research, file, calculator
-    - Use EXACT tool names as listed above
-    - For research papers, use parameter "topic"
-    - For math operations, use parameters like "a", "b", "base", "exponent", etc.
-    - For file operations, use "directory", "filename", "content" as needed
-    - NEVER provide explanatory text with the JSON - ONLY return the JSON object
+        Examples:
+        - For "list files": {"action": "use_tool", "server": "file", "tool": "list_files", "arguments": {}}
+        - For "multiply 3 and 4": {"action": "use_tool", "server": "calculator", "tool": "multiply", "arguments": {"a": 3, "b": 4}}
+        - For "search papers on AI": {"action": "use_tool", "server": "research", "tool": "search_papers", "arguments": {"topic": "AI"}}
+        - For "list files in my repo": {"action": "use_tool", "server": "github", "tool": "list_files", "arguments": {"owner": "Gamikant", "repo": "mcp-local-implementation"}}
 
-    Examples:
-    - For "list files": {"action": "use_tool", "server": "file", "tool": "list_files", "arguments": {}}
-    - For "multiply 3 and 4": {"action": "use_tool", "server": "calculator", "tool": "multiply", "arguments": {"a": 3, "b": 4}}
-    - For "search papers on AI": {"action": "use_tool", "server": "research", "tool": "search_papers", "arguments": {"topic": "AI"}}
+        Otherwise, respond normally to the user's query.
+        """
 
-    Otherwise, respond normally to the user's query.
-    """
         return prompt
 
     

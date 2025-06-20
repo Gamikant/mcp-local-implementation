@@ -349,3 +349,201 @@
 2025-06-20 08:53:20,815 - mcp_host - INFO - Stopped MCP server: file
 2025-06-20 08:53:20,818 - mcp_host - INFO - Stopped MCP server: calculator
 2025-06-20 08:53:20,818 - __main__ - INFO - Chatbot cleanup completed
+2025-06-20 09:25:06,717 - __main__ - INFO - Initializing MCP Chatbot...
+2025-06-20 09:25:06,741 - mcp_host - INFO - Started local MCP server: research
+2025-06-20 09:25:07,344 - mcp_host - INFO - Initialized local MCP server: research
+2025-06-20 09:25:07,447 - mcp_host - INFO - Got 2 tools from research: ['search_papers', 'extract_info']
+2025-06-20 09:25:07,453 - mcp_host - INFO - Started local MCP server: file
+2025-06-20 09:25:08,057 - mcp_host - INFO - Initialized local MCP server: file
+2025-06-20 09:25:08,160 - mcp_host - INFO - Got 4 tools from file: ['list_files', 'read_file', 'write_file', 'delete_file']
+2025-06-20 09:25:08,166 - mcp_host - INFO - Started local MCP server: calculator
+2025-06-20 09:25:08,770 - mcp_host - INFO - Initialized local MCP server: calculator
+2025-06-20 09:25:08,871 - mcp_host - INFO - Got 6 tools from calculator: ['add', 'subtract', 'multiply', 'divide', 'power', 'square_root']
+2025-06-20 09:25:08,873 - mcp_host - INFO - Started remote MCP server: github
+2025-06-20 09:25:08,873 - mcp_host - INFO - Initialized remote MCP server: github
+2025-06-20 09:25:08,873 - mcp_host - INFO - Got 3 tools from github: ['get_repository', 'list_files', 'get_file_content']
+2025-06-20 09:25:09,875 - __main__ - INFO - MCP Chatbot initialized successfully!
+2025-06-20 09:25:39,521 - __main__ - INFO - Calling tool list_files on server github with args: {'repository': 'your-repository-name'}
+2025-06-20 09:25:39,598 - __main__ - INFO - Raw tool result: {'error': {'code': -32603, 'message': "Tool execution error: Cannot connect to host api.github.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)')]"}}
+2025-06-20 09:25:39,598 - __main__ - ERROR - Tool call error: Tool execution error: Cannot connect to host api.github.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)')]
+2025-06-20 09:29:27,226 - mcp_host - INFO - Stopped local MCP server: research
+2025-06-20 09:29:27,231 - mcp_host - INFO - Stopped local MCP server: file
+2025-06-20 09:29:27,233 - mcp_host - INFO - Stopped local MCP server: calculator
+2025-06-20 09:29:27,233 - mcp_host - INFO - Stopped remote MCP server: github
+2025-06-20 09:29:27,233 - __main__ - INFO - Chatbot cleanup completed
+2025-06-20 09:29:32,728 - __main__ - INFO - Initializing MCP Chatbot...
+2025-06-20 09:29:32,757 - mcp_host - INFO - Started local MCP server: research
+2025-06-20 09:29:33,455 - mcp_host - INFO - Initialized local MCP server: research
+2025-06-20 09:29:33,556 - mcp_host - INFO - Got 2 tools from research: ['search_papers', 'extract_info']
+2025-06-20 09:29:33,560 - mcp_host - INFO - Started local MCP server: file
+2025-06-20 09:29:34,164 - mcp_host - INFO - Initialized local MCP server: file
+2025-06-20 09:29:34,267 - mcp_host - INFO - Got 4 tools from file: ['list_files', 'read_file', 'write_file', 'delete_file']
+2025-06-20 09:29:34,273 - mcp_host - INFO - Started local MCP server: calculator
+2025-06-20 09:29:34,877 - mcp_host - INFO - Initialized local MCP server: calculator
+2025-06-20 09:29:34,980 - mcp_host - INFO - Got 6 tools from calculator: ['add', 'subtract', 'multiply', 'divide', 'power', 'square_root']
+2025-06-20 09:29:34,981 - mcp_host - INFO - Started remote MCP server: github
+2025-06-20 09:29:34,981 - mcp_host - INFO - Initialized remote MCP server: github
+2025-06-20 09:29:34,981 - mcp_host - INFO - Got 3 tools from github: ['get_repository', 'list_files', 'get_file_content']
+2025-06-20 09:29:35,983 - __main__ - INFO - MCP Chatbot initialized successfully!
+2025-06-20 09:29:49,243 - __main__ - INFO - Calling tool list_files on server github with args: {'repo_id': '<your_repository_id>'}
+2025-06-20 09:29:49,306 - __main__ - INFO - Raw tool result: {'error': {'code': -32603, 'message': "Tool execution error: Cannot connect to host api.github.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)')]"}}
+2025-06-20 09:29:49,306 - __main__ - ERROR - Tool call error: Tool execution error: Cannot connect to host api.github.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)')]
+2025-06-20 09:32:21,568 - mcp_host - INFO - Stopped local MCP server: research
+2025-06-20 09:32:21,570 - mcp_host - INFO - Stopped local MCP server: file
+2025-06-20 09:32:21,572 - mcp_host - INFO - Stopped local MCP server: calculator
+2025-06-20 09:32:21,573 - mcp_host - INFO - Stopped remote MCP server: github
+2025-06-20 09:32:21,573 - __main__ - INFO - Chatbot cleanup completed
+2025-06-20 09:35:02,299 - __main__ - INFO - Initializing MCP Chatbot...
+2025-06-20 09:35:02,310 - mcp_host - INFO - Started local MCP server: research
+2025-06-20 09:35:02,914 - mcp_host - INFO - Initialized local MCP server: research
+2025-06-20 09:35:03,017 - mcp_host - INFO - Got 2 tools from research: ['search_papers', 'extract_info']
+2025-06-20 09:35:03,022 - mcp_host - INFO - Started local MCP server: file
+2025-06-20 09:35:03,626 - mcp_host - INFO - Initialized local MCP server: file
+2025-06-20 09:35:03,728 - mcp_host - INFO - Got 4 tools from file: ['list_files', 'read_file', 'write_file', 'delete_file']
+2025-06-20 09:35:03,734 - mcp_host - INFO - Started local MCP server: calculator
+2025-06-20 09:35:04,338 - mcp_host - INFO - Initialized local MCP server: calculator
+2025-06-20 09:35:04,439 - mcp_host - INFO - Got 6 tools from calculator: ['add', 'subtract', 'multiply', 'divide', 'power', 'square_root']
+2025-06-20 09:35:04,456 - mcp_host - INFO - Started remote MCP server: github
+2025-06-20 09:35:04,456 - mcp_host - INFO - Initialized remote MCP server: github
+2025-06-20 09:35:04,456 - mcp_host - INFO - Got 3 tools from github: ['get_repository', 'list_files', 'get_file_content']
+2025-06-20 09:35:05,458 - __main__ - INFO - MCP Chatbot initialized successfully!
+2025-06-20 09:35:21,680 - __main__ - INFO - Calling tool list_files on server github with args: {'owner': 'yourusername', 'repo': 'mcp_local_implementation'}
+2025-06-20 09:35:21,960 - __main__ - INFO - Raw tool result: {'error': {'code': 401, 'message': 'GitHub API error: 401'}}
+2025-06-20 09:35:21,960 - __main__ - ERROR - Tool call error: GitHub API error: 401
+2025-06-20 09:37:24,167 - mcp_host - INFO - Stopped local MCP server: research
+2025-06-20 09:37:24,169 - mcp_host - INFO - Stopped local MCP server: file
+2025-06-20 09:37:24,171 - mcp_host - INFO - Stopped local MCP server: calculator
+2025-06-20 09:37:24,171 - mcp_host - INFO - Stopped remote MCP server: github
+2025-06-20 09:37:24,171 - __main__ - INFO - Chatbot cleanup completed
+2025-06-20 09:37:36,040 - __main__ - INFO - Initializing MCP Chatbot...
+2025-06-20 09:37:36,049 - mcp_host - INFO - Started local MCP server: research
+2025-06-20 09:37:36,653 - mcp_host - INFO - Initialized local MCP server: research
+2025-06-20 09:37:36,755 - mcp_host - INFO - Got 2 tools from research: ['search_papers', 'extract_info']
+2025-06-20 09:37:36,759 - mcp_host - INFO - Started local MCP server: file
+2025-06-20 09:37:37,363 - mcp_host - INFO - Initialized local MCP server: file
+2025-06-20 09:37:37,465 - mcp_host - INFO - Got 4 tools from file: ['list_files', 'read_file', 'write_file', 'delete_file']
+2025-06-20 09:37:37,473 - mcp_host - INFO - Started local MCP server: calculator
+2025-06-20 09:37:38,077 - mcp_host - INFO - Initialized local MCP server: calculator
+2025-06-20 09:37:38,179 - mcp_host - INFO - Got 6 tools from calculator: ['add', 'subtract', 'multiply', 'divide', 'power', 'square_root']
+2025-06-20 09:37:38,199 - mcp_host - INFO - Started remote MCP server: github
+2025-06-20 09:37:38,200 - mcp_host - INFO - Initialized remote MCP server: github
+2025-06-20 09:37:38,200 - mcp_host - INFO - Got 3 tools from github: ['get_repository', 'list_files', 'get_file_content']
+2025-06-20 09:37:39,201 - __main__ - INFO - MCP Chatbot initialized successfully!
+2025-06-20 09:37:48,819 - __main__ - INFO - Calling tool list_files on server github with args: {'owner': 'Gamikant', 'repo': 'mcp_local_implementation'}
+2025-06-20 09:37:49,123 - __main__ - INFO - Raw tool result: {'error': {'code': 401, 'message': 'GitHub API error: 401'}}
+2025-06-20 09:37:49,124 - __main__ - ERROR - Tool call error: GitHub API error: 401
+2025-06-20 09:40:43,621 - mcp_host - INFO - Stopped local MCP server: research
+2025-06-20 09:40:43,625 - mcp_host - INFO - Stopped local MCP server: file
+2025-06-20 09:40:43,626 - mcp_host - INFO - Stopped local MCP server: calculator
+2025-06-20 09:40:43,626 - mcp_host - INFO - Stopped remote MCP server: github
+2025-06-20 09:40:43,627 - __main__ - INFO - Chatbot cleanup completed
+2025-06-20 09:40:46,354 - __main__ - INFO - Initializing MCP Chatbot...
+2025-06-20 09:40:46,364 - mcp_host - INFO - Started local MCP server: research
+2025-06-20 09:40:46,968 - mcp_host - INFO - Initialized local MCP server: research
+2025-06-20 09:40:47,070 - mcp_host - INFO - Got 2 tools from research: ['search_papers', 'extract_info']
+2025-06-20 09:40:47,076 - mcp_host - INFO - Started local MCP server: file
+2025-06-20 09:40:47,680 - mcp_host - INFO - Initialized local MCP server: file
+2025-06-20 09:40:47,783 - mcp_host - INFO - Got 4 tools from file: ['list_files', 'read_file', 'write_file', 'delete_file']
+2025-06-20 09:40:47,789 - mcp_host - INFO - Started local MCP server: calculator
+2025-06-20 09:40:48,393 - mcp_host - INFO - Initialized local MCP server: calculator
+2025-06-20 09:40:48,496 - mcp_host - INFO - Got 6 tools from calculator: ['add', 'subtract', 'multiply', 'divide', 'power', 'square_root']
+2025-06-20 09:40:48,513 - mcp_host - INFO - Started remote MCP server: github
+2025-06-20 09:40:48,513 - mcp_host - INFO - Initialized remote MCP server: github
+2025-06-20 09:40:48,513 - mcp_host - INFO - Got 3 tools from github: ['get_repository', 'list_files', 'get_file_content']
+2025-06-20 09:40:49,515 - __main__ - INFO - MCP Chatbot initialized successfully!
+2025-06-20 09:41:00,909 - __main__ - INFO - Calling tool list_files on server github with args: {'owner': 'Gamikant', 'repo': 'mcp_local_implementation'}
+2025-06-20 09:41:01,219 - __main__ - INFO - Raw tool result: {'error': {'code': 401, 'message': 'GitHub API error: 401'}}
+2025-06-20 09:41:01,220 - __main__ - ERROR - Tool call error: GitHub API error: 401
+2025-06-20 09:43:23,251 - mcp_host - INFO - Stopped local MCP server: research
+2025-06-20 09:43:23,255 - mcp_host - INFO - Stopped local MCP server: file
+2025-06-20 09:43:23,257 - mcp_host - INFO - Stopped local MCP server: calculator
+2025-06-20 09:43:23,257 - mcp_host - INFO - Stopped remote MCP server: github
+2025-06-20 09:43:23,257 - __main__ - INFO - Chatbot cleanup completed
+2025-06-20 09:50:09,573 - __main__ - INFO - Initializing MCP Chatbot...
+2025-06-20 09:50:09,592 - mcp_host - INFO - Started local MCP server: research
+2025-06-20 09:50:10,195 - mcp_host - INFO - Initialized local MCP server: research
+2025-06-20 09:50:10,297 - mcp_host - INFO - Got 2 tools from research: ['search_papers', 'extract_info']
+2025-06-20 09:50:10,299 - mcp_host - INFO - Started local MCP server: file
+2025-06-20 09:50:10,902 - mcp_host - INFO - Initialized local MCP server: file
+2025-06-20 09:50:11,004 - mcp_host - INFO - Got 4 tools from file: ['list_files', 'read_file', 'write_file', 'delete_file']
+2025-06-20 09:50:11,007 - mcp_host - INFO - Started local MCP server: calculator
+2025-06-20 09:50:11,611 - mcp_host - INFO - Initialized local MCP server: calculator
+2025-06-20 09:50:11,713 - mcp_host - INFO - Got 6 tools from calculator: ['add', 'subtract', 'multiply', 'divide', 'power', 'square_root']
+2025-06-20 09:50:11,732 - mcp_host - INFO - Started remote MCP server: github
+2025-06-20 09:50:11,732 - mcp_host - INFO - Initialized remote MCP server: github
+2025-06-20 09:50:11,732 - mcp_host - INFO - Got 3 tools from github: ['get_repository', 'list_files', 'get_file_content']
+2025-06-20 09:50:12,733 - __main__ - INFO - MCP Chatbot initialized successfully!
+2025-06-20 09:50:22,928 - __main__ - INFO - Calling tool list_files on server github with args: {'owner': 'Gamikant', 'repo': 'mcp-local-implementation'}
+2025-06-20 09:50:23,215 - __main__ - INFO - Raw tool result: {'error': {'code': 401, 'message': 'GitHub API error: 401'}}
+2025-06-20 09:50:23,216 - __main__ - ERROR - Tool call error: GitHub API error: 401
+2025-06-20 09:53:30,252 - mcp_host - INFO - Stopped local MCP server: research
+2025-06-20 09:53:30,256 - mcp_host - INFO - Stopped local MCP server: file
+2025-06-20 09:53:30,257 - mcp_host - INFO - Stopped local MCP server: calculator
+2025-06-20 09:53:30,258 - mcp_host - INFO - Stopped remote MCP server: github
+2025-06-20 09:53:30,258 - __main__ - INFO - Chatbot cleanup completed
+2025-06-20 09:59:45,254 - __main__ - INFO - Initializing MCP Chatbot...
+2025-06-20 09:59:45,264 - mcp_host - INFO - Started local MCP server: research
+2025-06-20 09:59:45,868 - mcp_host - INFO - Initialized local MCP server: research
+2025-06-20 09:59:45,970 - mcp_host - INFO - Got 2 tools from research: ['search_papers', 'extract_info']
+2025-06-20 09:59:45,974 - mcp_host - INFO - Started local MCP server: file
+2025-06-20 09:59:46,577 - mcp_host - INFO - Initialized local MCP server: file
+2025-06-20 09:59:46,679 - mcp_host - INFO - Got 4 tools from file: ['list_files', 'read_file', 'write_file', 'delete_file']
+2025-06-20 09:59:46,684 - mcp_host - INFO - Started local MCP server: calculator
+2025-06-20 09:59:47,288 - mcp_host - INFO - Initialized local MCP server: calculator
+2025-06-20 09:59:47,390 - mcp_host - INFO - Got 6 tools from calculator: ['add', 'subtract', 'multiply', 'divide', 'power', 'square_root']
+2025-06-20 09:59:47,409 - mcp_host - INFO - Started remote MCP server: github
+2025-06-20 09:59:47,409 - mcp_host - INFO - Initialized remote MCP server: github
+2025-06-20 09:59:47,409 - mcp_host - INFO - Got 3 tools from github: ['get_repository', 'list_files', 'get_file_content']
+2025-06-20 09:59:48,411 - __main__ - INFO - MCP Chatbot initialized successfully!
+2025-06-20 09:59:59,728 - __main__ - INFO - Calling tool list_files on server github with args: {'owner': 'Gamikant', 'repo': 'mcp-local-implementation'}
+2025-06-20 10:00:00,156 - __main__ - INFO - Raw tool result: {'result': {'content': [{'type': 'text', 'text': '[\n  "README.md",\n  "System Design.md",\n  "chatbot",\n  "config",\n  "logs",\n  "mcp_servers",\n  "papers",\n  "requirements.txt"\n]'}]}}
+2025-06-20 10:02:36,429 - __main__ - INFO - Calling tool search_papers on server research with args: {'topic': 'model context protocol'}
+2025-06-20 10:02:36,430 - mcp_host - INFO - Sending tool request to research: {'jsonrpc': '2.0', 'id': 3, 'method': 'tools/call', 'params': {'name': 'search_papers', 'arguments': {'topic': 'model context protocol'}}}
+2025-06-20 10:02:55,286 - mcp_host - INFO - Tool response from research: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': "Error searching papers after 3 attempts: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))"}]}}
+2025-06-20 10:02:55,286 - __main__ - INFO - Raw tool result: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': "Error searching papers after 3 attempts: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))"}]}}
+2025-06-20 10:04:48,005 - mcp_host - INFO - Stopped local MCP server: research
+2025-06-20 10:04:48,009 - mcp_host - INFO - Stopped local MCP server: file
+2025-06-20 10:04:48,013 - mcp_host - INFO - Stopped local MCP server: calculator
+2025-06-20 10:04:48,014 - mcp_host - INFO - Stopped remote MCP server: github
+2025-06-20 10:04:48,014 - __main__ - INFO - Chatbot cleanup completed
+2025-06-20 10:42:30,119 - __main__ - INFO - Initializing MCP Chatbot...
+2025-06-20 10:42:30,157 - mcp_host - INFO - Started local MCP server: research
+2025-06-20 10:42:30,760 - mcp_host - INFO - Initialized local MCP server: research
+2025-06-20 10:42:30,861 - mcp_host - INFO - Got 2 tools from research: ['search_papers', 'extract_info']
+2025-06-20 10:42:30,865 - mcp_host - INFO - Started local MCP server: file
+2025-06-20 10:42:31,468 - mcp_host - INFO - Initialized local MCP server: file
+2025-06-20 10:42:31,570 - mcp_host - INFO - Got 4 tools from file: ['list_files', 'read_file', 'write_file', 'delete_file']
+2025-06-20 10:42:31,577 - mcp_host - INFO - Started local MCP server: calculator
+2025-06-20 10:42:32,181 - mcp_host - INFO - Initialized local MCP server: calculator
+2025-06-20 10:42:32,283 - mcp_host - INFO - Got 6 tools from calculator: ['add', 'subtract', 'multiply', 'divide', 'power', 'square_root']
+2025-06-20 10:42:32,304 - mcp_host - INFO - Started remote MCP server: github
+2025-06-20 10:42:32,304 - mcp_host - INFO - Initialized remote MCP server: github
+2025-06-20 10:42:32,305 - mcp_host - INFO - Got 3 tools from github: ['get_repository', 'list_files', 'get_file_content']
+2025-06-20 10:42:33,306 - __main__ - INFO - MCP Chatbot initialized successfully!
+2025-06-20 10:42:55,590 - __main__ - INFO - Calling tool search_papers on server research with args: {'topic': 'artificial intelligence'}
+2025-06-20 10:42:55,591 - mcp_host - INFO - Sending tool request to research: {'jsonrpc': '2.0', 'id': 3, 'method': 'tools/call', 'params': {'name': 'search_papers', 'arguments': {'topic': 'artificial intelligence'}}}
+2025-06-20 10:43:11,162 - mcp_host - INFO - Tool response from research: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': "Error searching papers after 3 attempts: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))"}]}}
+2025-06-20 10:43:11,163 - __main__ - INFO - Raw tool result: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': "Error searching papers after 3 attempts: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))"}]}}
+2025-06-20 10:44:11,223 - __main__ - INFO - Calling tool list_files on server file with args: {'directory': '.'}
+2025-06-20 10:44:11,224 - mcp_host - INFO - Sending tool request to file: {'jsonrpc': '2.0', 'id': 3, 'method': 'tools/call', 'params': {'name': 'list_files', 'arguments': {'directory': '.'}}}
+2025-06-20 10:44:11,326 - mcp_host - INFO - Tool response from file: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': "['.env', '.git/', 'README.md', 'System Design.md', 'chatbot/', 'config/', 'data/', 'logs/', 'mcp_servers/', 'papers/', 'requirements.txt']"}]}}
+2025-06-20 10:44:11,326 - __main__ - INFO - Raw tool result: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': "['.env', '.git/', 'README.md', 'System Design.md', 'chatbot/', 'config/', 'data/', 'logs/', 'mcp_servers/', 'papers/', 'requirements.txt']"}]}}
+2025-06-20 10:44:46,265 - __main__ - INFO - Calling tool list_files on server github with args: {'owner': 'deep-art', 'repo': 'mcp-local-implementation'}
+2025-06-20 10:44:46,568 - __main__ - INFO - Raw tool result: {'error': {'code': 404, 'message': 'GitHub API error: 404'}}
+2025-06-20 10:44:46,568 - __main__ - ERROR - Tool call error: GitHub API error: 404
+2025-06-20 10:45:49,935 - __main__ - INFO - Calling tool list_files on server github with args: {'owner': 'Gamikant', 'repo': 'deep-art'}
+2025-06-20 10:45:50,362 - __main__ - INFO - Raw tool result: {'result': {'content': [{'type': 'text', 'text': '[\n  "README.md",\n  "backend",\n  "docker-compose.yml",\n  "frontend"\n]'}]}}
+2025-06-20 10:46:32,971 - __main__ - INFO - Calling tool get_repository on server github with args: {'owner': 'Gamikant'}
+2025-06-20 10:46:33,373 - __main__ - INFO - Raw tool result: {'error': {'code': 404, 'message': 'GitHub API error: 404'}}
+2025-06-20 10:46:33,374 - __main__ - ERROR - Tool call error: GitHub API error: 404
+2025-06-20 10:47:20,161 - __main__ - INFO - Calling tool get_repository on server github with args: {'owner': 'Gamikant', 'repo': 'deep-art'}
+2025-06-20 10:47:20,629 - __main__ - INFO - Raw tool result: {'result': {'content': [{'type': 'text', 'text': '{\n  "id": 991857809,\n  "node_id": "R_kgDOOx6MkQ",\n  "name": "deep-art",\n  "full_name": "Gamikant/deep-art",\n  "private": false,\n  "owner": {\n    "login": "Gamikant",\n    "id": 97610996,\n    "node_id": "U_kgDOBdFs9A",\n    "avatar_url": "https://avatars.githubusercontent.com/u/97610996?v=4",\n    "gravatar_id": "",\n    "url": "https://api.github.com/users/Gamikant",\n    "html_url": "https://github.com/Gamikant",\n    "followers_url": "https://api.github.com/users/Gamikant/followers",\n    "following_url": "https://api.github.com/users/Gamikant/following{/other_user}",\n    "gists_url": "https://api.github.com/users/Gamikant/gists{/gist_id}",\n    "starred_url": "https://api.github.com/users/Gamikant/starred{/owner}{/repo}",\n    "subscriptions_url": "https://api.github.com/users/Gamikant/subscriptions",\n    "organizations_url": "https://api.github.com/users/Gamikant/orgs",\n    "repos_url": "https://api.github.com/users/Gamikant/repos",\n    "events_url": "https://api.github.com/users/Gamikant/events{/privacy}",\n    "received_events_url": "https://api.github.com/users/Gamikant/received_events",\n    "type": "User",\n    "user_view_type": "public",\n    "site_admin": false\n  },\n  "html_url": "https://github.com/Gamikant/deep-art",\n  "description": "User\'s can clone my repository -> Build the docker image & Start the container -> Go to the local website -> Upload their image -> Pick from different styles by looking at their previewed thumbnails -> Get their image converted to selected style for downloading",\n  "fork": false,\n  "url": "https://api.github.com/repos/Gamikant/deep-art",\n  "forks_url": "https://api.github.com/repos/Gamikant/deep-art/forks",\n  "keys_url": "https://api.github.com/repos/Gamikant/deep-art/keys{/key_id}",\n  "collaborators_url": "https://api.github.com/repos/Gamikant/deep-art/collaborators{/collaborator}",\n  "teams_url": "https://api.github.com/repos/Gamikant/deep-art/teams",\n  "hooks_url": "https://api.github.com/repos/Gamikant/deep-art/hooks",\n  "issue_events_url": "https://api.github.com/repos/Gamikant/deep-art/issues/events{/number}",\n  "events_url": "https://api.github.com/repos/Gamikant/deep-art/events",\n  "assignees_url": "https://api.github.com/repos/Gamikant/deep-art/assignees{/user}",\n  "branches_url": "https://api.github.com/repos/Gamikant/deep-art/branches{/branch}",\n  "tags_url": "https://api.github.com/repos/Gamikant/deep-art/tags",\n  "blobs_url": "https://api.github.com/repos/Gamikant/deep-art/git/blobs{/sha}",\n  "git_tags_url": "https://api.github.com/repos/Gamikant/deep-art/git/tags{/sha}",\n  "git_refs_url": "https://api.github.com/repos/Gamikant/deep-art/git/refs{/sha}",\n  "trees_url": "https://api.github.com/repos/Gamikant/deep-art/git/trees{/sha}",\n  "statuses_url": "https://api.github.com/repos/Gamikant/deep-art/statuses/{sha}",\n  "languages_url": "https://api.github.com/repos/Gamikant/deep-art/languages",\n  "stargazers_url": "https://api.github.com/repos/Gamikant/deep-art/stargazers",\n  "contributors_url": "https://api.github.com/repos/Gamikant/deep-art/contributors",\n  "subscribers_url": "https://api.github.com/repos/Gamikant/deep-art/subscribers",\n  "subscription_url": "https://api.github.com/repos/Gamikant/deep-art/subscription",\n  "commits_url": "https://api.github.com/repos/Gamikant/deep-art/commits{/sha}",\n  "git_commits_url": "https://api.github.com/repos/Gamikant/deep-art/git/commits{/sha}",\n  "comments_url": "https://api.github.com/repos/Gamikant/deep-art/comments{/number}",\n  "issue_comment_url": "https://api.github.com/repos/Gamikant/deep-art/issues/comments{/number}",\n  "contents_url": "https://api.github.com/repos/Gamikant/deep-art/contents/{+path}",\n  "compare_url": "https://api.github.com/repos/Gamikant/deep-art/compare/{base}...{head}",\n  "merges_url": "https://api.github.com/repos/Gamikant/deep-art/merges",\n  "archive_url": "https://api.github.com/repos/Gamikant/deep-art/{archive_format}{/ref}",\n  "downloads_url": "https://api.github.com/repos/Gamikant/deep-art/downloads",\n  "issues_url": "https://api.github.com/repos/Gamikant/deep-art/issues{/number}",\n  "pulls_url": "https://api.github.com/repos/Gamikant/deep-art/pulls{/number}",\n  "milestones_url": "https://api.github.com/repos/Gamikant/deep-art/milestones{/number}",\n  "notifications_url": "https://api.github.com/repos/Gamikant/deep-art/notifications{?since,all,participating}",\n  "labels_url": "https://api.github.com/repos/Gamikant/deep-art/labels{/name}",\n  "releases_url": "https://api.github.com/repos/Gamikant/deep-art/releases{/id}",\n  "deployments_url": "https://api.github.com/repos/Gamikant/deep-art/deployments",\n  "created_at": "2025-05-28T08:53:21Z",\n  "updated_at": "2025-05-28T20:38:39Z",\n  "pushed_at": "2025-05-28T20:38:36Z",\n  "git_url": "git://github.com/Gamikant/deep-art.git",\n  "ssh_url": "git@github.com:Gamikant/deep-art.git",\n  "clone_url": "https://github.com/Gamikant/deep-art.git",\n  "svn_url": "https://github.com/Gamikant/deep-art",\n  "homepage": null,\n  "size": 25420,\n  "stargazers_count": 0,\n  "watchers_count": 0,\n  "language": "Python",\n  "has_issues": true,\n  "has_projects": true,\n  "has_downloads": true,\n  "has_wiki": true,\n  "has_pages": false,\n  "has_discussions": false,\n  "forks_count": 0,\n  "mirror_url": null,\n  "archived": false,\n  "disabled": false,\n  "open_issues_count": 0,\n  "license": null,\n  "allow_forking": true,\n  "is_template": false,\n  "web_commit_signoff_required": false,\n  "topics": [],\n  "visibility": "public",\n  "forks": 0,\n  "open_issues": 0,\n  "watchers": 0,\n  "default_branch": "main",\n  "permissions": {\n    "admin": true,\n    "maintain": true,\n    "push": true,\n    "triage": true,\n    "pull": true\n  },\n  "temp_clone_token": "",\n  "allow_squash_merge": true,\n  "allow_merge_commit": true,\n  "allow_rebase_merge": true,\n  "allow_auto_merge": false,\n  "delete_branch_on_merge": false,\n  "allow_update_branch": false,\n  "use_squash_pr_title_as_default": false,\n  "squash_merge_commit_message": "COMMIT_MESSAGES",\n  "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",\n  "merge_commit_message": "PR_TITLE",\n  "merge_commit_title": "MERGE_MESSAGE",\n  "security_and_analysis": {\n    "secret_scanning": {\n      "status": "enabled"\n    },\n    "secret_scanning_push_protection": {\n      "status": "enabled"\n    },\n    "dependabot_security_updates": {\n      "status": "disabled"\n    },\n    "secret_scanning_non_provider_patterns": {\n      "status": "disabled"\n    },\n    "secret_scanning_validity_checks": {\n      "status": "disabled"\n    }\n  },\n  "network_count": 0,\n  "subscribers_count": 0\n}'}]}}
+2025-06-20 10:49:28,065 - __main__ - INFO - Calling tool search_papers on server research with args: {'topic': 'docker'}
+2025-06-20 10:49:28,065 - mcp_host - INFO - Sending tool request to research: {'jsonrpc': '2.0', 'id': 3, 'method': 'tools/call', 'params': {'name': 'search_papers', 'arguments': {'topic': 'docker'}}}
+2025-06-20 10:49:32,403 - mcp_host - INFO - Tool response from research: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': 'Found 5 papers: 2206.00699v1, 2009.11572v1, 2502.11708v1, 1804.05039v3, 1708.08399v1'}]}}
+2025-06-20 10:49:32,403 - __main__ - INFO - Raw tool result: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': 'Found 5 papers: 2206.00699v1, 2009.11572v1, 2502.11708v1, 1804.05039v3, 1708.08399v1'}]}}
+2025-06-20 10:49:54,733 - mcp_host - INFO - Stopped local MCP server: research
+2025-06-20 10:49:54,735 - mcp_host - INFO - Stopped local MCP server: file
+2025-06-20 10:49:54,740 - mcp_host - INFO - Stopped local MCP server: calculator
+2025-06-20 10:49:54,740 - mcp_host - INFO - Stopped remote MCP server: github
+2025-06-20 10:49:54,740 - __main__ - INFO - Chatbot cleanup completed

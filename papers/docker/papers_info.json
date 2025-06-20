@@ -1,0 +1,59 @@
+{
+  "2206.00699v1": {
+    "title": "Studying the Practices of Deploying Machine Learning Projects on Docker",
+    "authors": [
+      "Moses Openja",
+      "Forough Majidi",
+      "Foutse Khomh",
+      "Bhagya Chembakottu",
+      "Heng Li"
+    ],
+    "summary": "Docker is a containerization service that allows for convenient deployment of\nwebsites, databases, applications' APIs, and machine learning (ML) models with\na few lines of code. Studies have recently explored the use of Docker for\ndeploying general software projects with no specific focus on how Docker is\nused to deploy ML-based projects.\n  In this study, we conducted an exploratory study to understand how Docker is\nbeing used to deploy ML-based projects. As the initial step, we examined the\ncat...",
+    "pdf_url": "http://arxiv.org/pdf/2206.00699v1",
+    "published": "2022-06-01"
+  },
+  "2009.11572v1": {
+    "title": "Lic-Sec: an enhanced AppArmor Docker security profile generator",
+    "authors": [
+      "Hui Zhu",
+      "Christian Gehrmann"
+    ],
+    "summary": "Along with the rapid development of cloud computing technology,\ncontainerization technology has drawn much attention from both industry and\nacademia. In this paper, we perform a comparative measurement analysis of\nDocker-sec, which is a Linux Security Module proposed in 2018, and a new\nAppArmor profile generator called Lic-Sec, which combines Docker-sec with a\nmodified version of LiCShield, which is also a Linux Security Module proposed\nin 2015. Docker-sec and LiCShield can be used to enhance Do...",
+    "pdf_url": "http://arxiv.org/pdf/2009.11572v1",
+    "published": "2020-09-24"
+  },
+  "2502.11708v1": {
+    "title": "Design and Implementation of Flutter based Multi-platform Docker Controller App",
+    "authors": [
+      "Adarsh Saxena",
+      "Sudhakar Singh",
+      "Shiv Prakash",
+      "Nand Lal Yadav",
+      "Tiansheng Yang",
+      "Rajkumar Singh Rathore",
+      "Shreya Singh"
+    ],
+    "summary": "This paper focuses on developing a Flutter application for controlling Docker\nresources remotely. The application provides a user-friendly interface for\nexecuting various Docker-related commands on the server where the Docker engine\nis installed. The application uses the SSH protocol to establish a secure\nconnection with the server and execute the commands. Further, an alternative\napproach is also explored, which involves connecting the application with the\nDocker engine using HTTP. This propose...",
+    "pdf_url": "http://arxiv.org/pdf/2502.11708v1",
+    "published": "2025-02-17"
+  },
+  "1804.05039v3": {
+    "title": "Mitigating Docker Security Issues",
+    "authors": [
+      "Robail Yasrab"
+    ],
+    "summary": "Docker offers an ecosystem that offers a platform for application packaging,\ndistributing, and managing within containers. However, the Docker platform has\nnot yet matured. Presently, Docker is less secured than virtual machines (VM)\nand most of the other cloud technologies. The key to Dockers inadequate\nsecurity protocols is container sharing of Linux kernel, which can lead to the\nrisk of privileged escalations. This research will outline some significant\nsecurity vulnerabilities at Docker and ...",
+    "pdf_url": "http://arxiv.org/pdf/1804.05039v3",
+    "published": "2018-04-13"
+  },
+  "1708.08399v1": {
+    "title": "Towards a More Reliable and Available Docker-based Container Cloud",
+    "authors": [
+      "Mudit Verma",
+      "Mohan Dhawan"
+    ],
+    "summary": "Operating System-level virtualization technology, or containers as they are\ncommonly known, represents the next generation of light-weight virtualization,\nand is primarily represented by Docker. However, Docker's current design does\nnot complement the SLAs from Docker-based container cloud offerings promising\nboth reliability and high availability. The tight coupling between the\ncontainers and the Docker daemon proves fatal for the containers' uptime during\ndaemon's unavailability due to either ...",
+    "pdf_url": "http://arxiv.org/pdf/1708.08399v1",
+    "published": "2017-08-28"
+  }
+}
