@@ -1,6 +1,3 @@
-# High-Level Design (HLD)
-
-```markdown
 # MCP Local Implementation - High-Level Design (HLD)
 
 ## System Overview
