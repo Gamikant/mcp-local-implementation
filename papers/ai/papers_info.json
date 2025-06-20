@@ -1,0 +1,55 @@
+{
+  "2409.12922v1": {
+    "title": "AI Thinking: A framework for rethinking artificial intelligence in practice",
+    "authors": [
+      "Denis Newman-Griffis"
+    ],
+    "summary": "Artificial intelligence is transforming the way we work with information\nacross disciplines and practical contexts. A growing range of disciplines are\nnow involved in studying, developing, and assessing the use of AI in practice,\nbut these disciplines often employ conflicting understandings of what AI is and\nwhat is involved in its use. New, interdisciplinary approaches are needed to\nbridge competing conceptualisations of AI in practice and help shape the future\nof AI use. I propose a novel conc...",
+    "pdf_url": "http://arxiv.org/pdf/2409.12922v1",
+    "published": "2024-08-26"
+  },
+  "2406.11563v3": {
+    "title": "Intersymbolic AI: Interlinking Symbolic AI and Subsymbolic AI",
+    "authors": [
+      "Andr\u00e9 Platzer"
+    ],
+    "summary": "This perspective piece calls for the study of the new field of Intersymbolic\nAI, by which we mean the combination of symbolic AI, whose building blocks have\ninherent significance/meaning, with subsymbolic AI, whose entirety creates\nsignificance/effect despite the fact that individual building blocks escape\nmeaning. Canonical kinds of symbolic AI are logic, games and planning.\nCanonical kinds of subsymbolic AI are (un)supervised machine and reinforcement\nlearning. Intersymbolic AI interlinks the ...",
+    "pdf_url": "http://arxiv.org/pdf/2406.11563v3",
+    "published": "2024-06-17"
+  },
+  "2402.07632v3": {
+    "title": "Overconfident and Unconfident AI Hinder Human-AI Collaboration",
+    "authors": [
+      "Jingshu Li",
+      "Yitian Yang",
+      "Renwen Zhang",
+      "Yi-chieh Lee"
+    ],
+    "summary": "AI transparency is a central pillar of responsible AI deployment and\neffective human-AI collaboration. A critical approach is communicating\nuncertainty, such as displaying AI's confidence level, or its correctness\nlikelihood (CL), to users. However, these confidence levels are often\nuncalibrated, either overestimating or underestimating actual CL, posing risks\nand harms to human-AI collaboration. This study examines the effects of\nuncalibrated AI confidence on users' trust in AI, AI advice adopt...",
+    "pdf_url": "http://arxiv.org/pdf/2402.07632v3",
+    "published": "2024-02-12"
+  },
+  "2211.05075v1": {
+    "title": "Supporting AI/ML Security Workers through an Adversarial Techniques, Tools, and Common Knowledge (AI/ML ATT&CK) Framework",
+    "authors": [
+      "Mohamad Fazelnia",
+      "Ahmet Okutan",
+      "Mehdi Mirakhorli"
+    ],
+    "summary": "This paper focuses on supporting AI/ML Security Workers -- professionals\ninvolved in the development and deployment of secure AI-enabled software\nsystems. It presents AI/ML Adversarial Techniques, Tools, and Common Knowledge\n(AI/ML ATT&CK) framework to enable AI/ML Security Workers intuitively to\nexplore offensive and defensive tactics.",
+    "pdf_url": "http://arxiv.org/pdf/2211.05075v1",
+    "published": "2022-11-09"
+  },
+  "2403.15481v2": {
+    "title": "Navigating Fairness: Practitioners' Understanding, Challenges, and Strategies in AI/ML Development",
+    "authors": [
+      "Aastha Pant",
+      "Rashina Hoda",
+      "Chakkrit Tantithamthavorn",
+      "Burak Turhan"
+    ],
+    "summary": "The rise in the use of AI/ML applications across industries has sparked more\ndiscussions about the fairness of AI/ML in recent times. While prior research\non the fairness of AI/ML exists, there is a lack of empirical studies focused\non understanding the perspectives and experiences of AI practitioners in\ndeveloping a fair AI/ML system. Understanding AI practitioners' perspectives\nand experiences on the fairness of AI/ML systems are important because they are\ndirectly involved in its development ...",
+    "pdf_url": "http://arxiv.org/pdf/2403.15481v2",
+    "published": "2024-03-21"
+  }
+}

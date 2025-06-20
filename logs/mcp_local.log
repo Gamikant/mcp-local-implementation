@@ -323,3 +323,29 @@
 2025-06-19 18:02:06,754 - mcp_host - INFO - Stopped MCP server: file
 2025-06-19 18:02:06,756 - mcp_host - INFO - Stopped MCP server: calculator
 2025-06-19 18:02:06,757 - __main__ - INFO - Chatbot cleanup completed
+2025-06-20 08:44:07,376 - __main__ - INFO - Initializing MCP Chatbot...
+2025-06-20 08:44:07,394 - __main__ - ERROR - Ollama is not available. Please ensure it's running with: ollama run llama3.2
+2025-06-20 08:44:07,394 - __main__ - INFO - Chatbot cleanup completed
+2025-06-20 08:45:13,205 - __main__ - INFO - Initializing MCP Chatbot...
+2025-06-20 08:45:13,222 - mcp_host - INFO - Started MCP server: research
+2025-06-20 08:45:13,825 - mcp_host - INFO - Initialized MCP server: research
+2025-06-20 08:45:13,927 - mcp_host - INFO - Got 2 tools from research: ['search_papers', 'extract_info']
+2025-06-20 08:45:13,933 - mcp_host - INFO - Started MCP server: file
+2025-06-20 08:45:14,536 - mcp_host - INFO - Initialized MCP server: file
+2025-06-20 08:45:14,638 - mcp_host - INFO - Got 4 tools from file: ['list_files', 'read_file', 'write_file', 'delete_file']
+2025-06-20 08:45:14,644 - mcp_host - INFO - Started MCP server: calculator
+2025-06-20 08:45:15,248 - mcp_host - INFO - Initialized MCP server: calculator
+2025-06-20 08:45:15,351 - mcp_host - INFO - Got 6 tools from calculator: ['add', 'subtract', 'multiply', 'divide', 'power', 'square_root']
+2025-06-20 08:45:16,353 - __main__ - INFO - MCP Chatbot initialized successfully!
+2025-06-20 08:45:37,472 - __main__ - INFO - Calling tool search_papers on server research with args: {'topic': 'AI'}
+2025-06-20 08:45:37,472 - mcp_host - INFO - Sending tool request to research: {'jsonrpc': '2.0', 'id': 3, 'method': 'tools/call', 'params': {'name': 'search_papers', 'arguments': {'topic': 'AI'}}}
+2025-06-20 08:46:09,428 - mcp_host - INFO - Tool response from research: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': 'Found 5 papers: 2409.12922v1, 2406.11563v3, 2402.07632v3, 2211.05075v1, 2403.15481v2'}]}}
+2025-06-20 08:46:09,428 - __main__ - INFO - Raw tool result: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': 'Found 5 papers: 2409.12922v1, 2406.11563v3, 2402.07632v3, 2211.05075v1, 2403.15481v2'}]}}
+2025-06-20 08:50:59,684 - __main__ - INFO - Calling tool list_files on server file with args: {'directory': 'papers'}
+2025-06-20 08:50:59,684 - mcp_host - INFO - Sending tool request to file: {'jsonrpc': '2.0', 'id': 3, 'method': 'tools/call', 'params': {'name': 'list_files', 'arguments': {'directory': 'papers'}}}
+2025-06-20 08:50:59,786 - mcp_host - INFO - Tool response from file: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': "['ai/', 'autoencoder/', 'deep_learning/', 'indian_culture/', 'machine_learning/', 'maths/']"}]}}
+2025-06-20 08:50:59,787 - __main__ - INFO - Raw tool result: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': "['ai/', 'autoencoder/', 'deep_learning/', 'indian_culture/', 'machine_learning/', 'maths/']"}]}}
+2025-06-20 08:53:20,811 - mcp_host - INFO - Stopped MCP server: research
+2025-06-20 08:53:20,815 - mcp_host - INFO - Stopped MCP server: file
+2025-06-20 08:53:20,818 - mcp_host - INFO - Stopped MCP server: calculator
+2025-06-20 08:53:20,818 - __main__ - INFO - Chatbot cleanup completed
