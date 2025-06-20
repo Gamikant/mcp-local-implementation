@@ -309,12 +309,9 @@ Result Processing → Error Handling → Response Formatting → Context Integra
 - Centralized configuration management
 
 This enhanced high-level design provides a robust, scalable, and secure foundation for the MCP Local Implementation, enabling seamless integration of AI capabilities with diverse data sources and computational tools through both local and remote server architectures.
-```
-
 
 # Low-Level Design (LLD)
 
-```markdown
 # MCP Local Implementation - Low-Level Design (LLD)
 
 ## Detailed Component Design
