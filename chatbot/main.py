@@ -235,7 +235,5 @@ async def main():
 if __name__ == "__main__":
     # Ensure required directories exist
     Path("logs").mkdir(exist_ok=True)
-    Path("papers").mkdir(exist_ok=True)
-    Path("data").mkdir(exist_ok=True)
-    
+    Path("papers").mkdir(exist_ok=True)    
     asyncio.run(main())

@@ -1,9 +1,3 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
-# Make a separate LLD and HLD
-
-Looking at your latest files and the comprehensive MCP implementation with GitHub integration, I'll create detailed HLD and LLD documents that reflect your current enhanced architecture.
-
 # High-Level Design (HLD)
 
 ```markdown
@@ -20,54 +14,54 @@ The MCP Local Implementation is a sophisticated AI chatbot system that leverages
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                        MCP Local Implementation                             │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│  User Interface Layer                                                      │
-│  ┌─────────────────────────────────────────────────────────────────────┐   │
-│  │                    Interactive CLI                                  │   │
-│  │  -  Command Processing    -  Input Validation    -  Output Formatting  │   │
-│  │  -  Built-in Commands     -  Natural Language    -  Response Display   │   │
-│  └─────────────────────────────────────────────────────────────────────┘   │
+│  User Interface Layer                                                       │
+│  ┌─────────────────────────────────────────────────────────────────────┐    │
+│  │                    Interactive CLI                                  │    │
+│  │  -  Command Processing   -  Input Validation  -  Output Formatting  │    │
+│  │  -  Built-in Commands   -  Natural Language   -  Response Display   │    │
+│  └─────────────────────────────────────────────────────────────────────┘    │
 │                                    │                                        │
-│  Application Orchestration Layer                                           │
-│  ┌─────────────────────────────────────────────────────────────────────┐   │
-│  │                      MCPChatbot                                     │   │
-│  │  -  Conversation Management  -  Tool Call Detection                   │   │
-│  │  -  Response Generation      -  Error Handling                       │   │
-│  │  -  Context Management       -  System Prompt Creation               │   │
-│  └─────────────────────────────────────────────────────────────────────┘   │
-│                          │                        │                        │
+│  Application Orchestration Layer                                            │
+│  ┌─────────────────────────────────────────────────────────────────────┐    │
+│  │                      MCPChatbot                                     │    │
+│  │  -  Conversation Management  -  Tool Call Detection                 │    │
+│  │  -  Response Generation      -  Error Handling                      │    │
+│  │  -  Context Management       -  System Prompt Creation              │    │
+│  └─────────────────────────────────────────────────────────────────────┘    │
+│                          │                        │                         │
 │  Integration Layer                                                          │
 │  ┌─────────────────────┐              ┌─────────────────────────────────┐   │
-│  │   Ollama Client     │              │      Enhanced MCP Host         │   │
-│  │ -  LLM Communication │              │ -  Multi-Server Management      │   │
-│  │ -  Model Management  │              │ -  Protocol Abstraction         │   │
-│  │ -  Response Parsing  │              │ -  Connection Pooling            │   │
-│  │ -  Health Monitoring │              │ -  Environment Variable Support │   │
+│  │   Ollama Client     │              │      Enhanced MCP Host          │   │
+│  │ -  LLM Communication│              │ -  Multi-Server Management      │   │
+│  │ -  Model Management │              │ -  Protocol Abstraction         │   │
+│  │ -  Response Parsing │              │ -  Connection Pooling           │   │
+│  │ -  Health Monitoring│              │ -  Environment Variable Support │   │
 │  └─────────────────────┘              └─────────────────────────────────┘   │
 │           │                                          │                      │
 │  Service Layer                                                              │
 │  ┌─────────────────────┐              ┌─────────────────────────────────┐   │
 │  │   Ollama Runtime    │              │        MCP Servers              │   │
-│  │ -  llama3.2 Model    │              │                                 │   │
-│  │ -  Local Processing  │              │  ┌─────────────────────────────┐ │   │
-│  │ -  GPU Acceleration  │              │  │     Local Servers           │ │   │
-│  │ -  Model Switching   │              │  │ -  Research (arXiv)          │ │   │
-│  └─────────────────────┘              │  │ -  File Operations           │ │   │
-│                                       │  │ -  Calculator                │ │   │
-│                                       │  └─────────────────────────────┘ │   │
+│  │ -  llama3.2 Model   │              │                                 │   │
+│  │ -  Local Processing │              │  ┌─────────────────────────────┐│   │
+│  │ -  GPU Acceleration │              │  │     Local Servers           ││   │
+│  │ -  Model Switching  │              │  │ -  Research (arXiv)         ││   │
+│  └─────────────────────┘              │  │ -  File Operations          ││   │
+│                                       │  │ -  Calculator               ││   │
+│                                       │  └─────────────────────────────┘│   │
 │                                       │                                 │   │
-│                                       │  ┌─────────────────────────────┐ │   │
-│                                       │  │     Remote Servers          │ │   │
-│                                       │  │ -  GitHub API                │ │   │
-│                                       │  │ -  Future APIs               │ │   │
-│                                       │  └─────────────────────────────┘ │   │
+│                                       │  ┌─────────────────────────────┐│   │
+│                                       │  │     Remote Servers          ││   │
+│                                       │  │ -  GitHub API               ││   │
+│                                       │  │ -  Future APIs              ││   │
+│                                       │  └─────────────────────────────┘│   │
 │                                       └─────────────────────────────────┘   │
 │                                                    │                        │
 │  External Services Layer                                                    │
-│  ┌─────────────────────────────────────────────────────────────────────┐   │
-│  │ -  arXiv API (Research Papers)    -  GitHub API (Repository Access)   │   │
-│  │ -  Local File System              -  Future External APIs             │   │
-│  │ -  SSL/TLS Security               -  Rate Limiting \& Retry Logic      │   │
-│  └─────────────────────────────────────────────────────────────────────┘   │
+│  ┌─────────────────────────────────────────────────────────────────────┐    │
+│  │ -  arXiv API (Research Papers)    -  GitHub API (Repository Access) │    │
+│  │ -  Local File System              -  Future External APIs           │    │
+│  │ -  SSL/TLS Security               -  Rate Limiting \& Retry Logic   │    │
+│  └─────────────────────────────────────────────────────────────────────┘    │
 └─────────────────────────────────────────────────────────────────────────────┘
 
 ```
@@ -333,87 +327,87 @@ This enhanced high-level design provides a robust, scalable, and secure foundati
 ```
 
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                           Enhanced Class Diagram                           │
+│                           Enhanced Class Diagram                            │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
-│  ┌─────────────────────────────────────────────────────────────────────┐   │
-│  │                        MCPChatbot                                   │   │
-│  ├─────────────────────────────────────────────────────────────────────┤   │
-│  │ - ollama: OllamaClient                                              │   │
-│  │ - mcp_host: EnhancedMCPHost                                         │   │
-│  │ - conversation_history: List[Dict[str, str]]                        │   │
-│  ├─────────────────────────────────────────────────────────────────────┤   │
-│  │ + initialize() → bool                                               │   │
-│  │ + chat(user_input: str) → str                                       │   │
-│  │ + _handle_tool_call(tool_call: dict) → str                          │   │
-│  │ + _create_system_prompt() → str                                     │   │
-│  │ + run_interactive() → None                                          │   │
-│  │ + cleanup() → None                                                  │   │
-│  └─────────────────────────────────────────────────────────────────────┘   │
-│                              │                                             │
-│                              │ uses                                        │
-│                              ▼                                             │
-│  ┌─────────────────────────────────────────────────────────────────────┐   │
-│  │                      OllamaClient                                   │   │
-│  ├─────────────────────────────────────────────────────────────────────┤   │
-│  │ - base_url: str                                                     │   │
-│  │ - model: str                                                        │   │
-│  │ - session: requests.Session                                         │   │
-│  ├─────────────────────────────────────────────────────────────────────┤   │
-│  │ + generate(prompt: str, system_prompt: str, **kwargs) → str         │   │
-│  │ + chat(messages: List[Dict[str, str]], **kwargs) → str              │   │
-│  │ + is_available() → bool                                             │   │
-│  └─────────────────────────────────────────────────────────────────────┘   │
+│  ┌─────────────────────────────────────────────────────────────────────┐    │
+│  │                        MCPChatbot                                   │    │
+│  ├─────────────────────────────────────────────────────────────────────┤    │
+│  │ - ollama: OllamaClient                                              │    │
+│  │ - mcp_host: EnhancedMCPHost                                         │    │
+│  │ - conversation_history: List[Dict[str, str]]                        │    │
+│  ├─────────────────────────────────────────────────────────────────────┤    │
+│  │ + initialize() → bool                                               │    │
+│  │ + chat(user_input: str) → str                                       │    │
+│  │ + _handle_tool_call(tool_call: dict) → str                          │    │
+│  │ + _create_system_prompt() → str                                     │    │
+│  │ + run_interactive() → None                                          │    │
+│  │ + cleanup() → None                                                  │    │
+│  └─────────────────────────────────────────────────────────────────────┘    │
+│                              │                                              │
+│                              │ uses                                         │
+│                              ▼                                              │
+│  ┌─────────────────────────────────────────────────────────────────────┐    │
+│  │                      OllamaClient                                   │    │
+│  ├─────────────────────────────────────────────────────────────────────┤    │
+│  │ - base_url: str                                                     │    │
+│  │ - model: str                                                        │    │
+│  │ - session: requests.Session                                         │    │
+│  ├─────────────────────────────────────────────────────────────────────┤    │
+│  │ + generate(prompt: str, system_prompt: str, **kwargs) → str         │    │
+│  │ + chat(messages: List[Dict[str, str]], **kwargs) → str              │    │
+│  │ + is_available() → bool                                             │    │
+│  └─────────────────────────────────────────────────────────────────────┘    │
 │                                                                             │
-│  ┌─────────────────────────────────────────────────────────────────────┐   │
-│  │                    EnhancedMCPHost                                  │   │
-│  ├─────────────────────────────────────────────────────────────────────┤   │
-│  │ - config_path: str                                                  │   │
-│  │ - servers: Dict[str, BaseMCPServer]                                 │   │
-│  │ - config: Dict[str, Any]                                            │   │
-│  ├─────────────────────────────────────────────────────────────────────┤   │
-│  │ + start_all_servers() → None                                        │   │
-│  │ + call_tool(server: str, tool: str, args: Dict) → Optional[Dict]    │   │
-│  │ + get_available_tools() → Dict[str, List[Dict]]                     │   │
-│  │ + stop_all_servers() → None                                         │   │
-│  │ - _load_config() → Dict                                             │   │
-│  └─────────────────────────────────────────────────────────────────────┘   │
-│                              │                                             │
-│                              │ manages                                     │
-│                              ▼                                             │
-│  ┌─────────────────────────────────────────────────────────────────────┐   │
-│  │                      BaseMCPServer                                  │   │
-│  │                       (Abstract)                                   │   │
-│  ├─────────────────────────────────────────────────────────────────────┤   │
-│  │ \# name: str                                                         │   │
-│  │ \# description: str                                                  │   │
-│  │ \# available_tools: List[Dict]                                       │   │
-│  │ \# initialized: bool                                                 │   │
-│  ├─────────────────────────────────────────────────────────────────────┤   │
-│  │ + start() → None                          (abstract)                │   │
-│  │ + call_tool(tool_name: str, args: Dict) → Optional[Dict] (abstract) │   │
-│  │ + stop() → None                           (abstract)                │   │
-│  └─────────────────────────────────────────────────────────────────────┘   │
-│                              △                                             │
-│                              │                                             │
-│                    ┌─────────┴─────────┐                                   │
-│                    │                   │                                   │
-│  ┌─────────────────────────────────┐   │   ┌─────────────────────────────┐ │
-│  │      LocalMCPServer             │   │   │     RemoteMCPServer         │ │
-│  ├─────────────────────────────────┤   │   ├─────────────────────────────┤ │
-│  │ - command: str                  │   │   │ - url: str                  │ │
-│  │ - args: List[str]               │   │   │ - headers: Dict[str, str]   │ │
-│  │ - process: subprocess.Popen     │   │   │ - session: ClientSession    │ │
-│  ├─────────────────────────────────┤   │   ├─────────────────────────────┤ │
-│  │ + start() → None                │   │   │ + start() → None            │ │
-│  │ + call_tool(...) → Dict         │   │   │ + call_tool(...) → Dict     │ │
-│  │ + stop() → None                 │   │   │ + stop() → None             │ │
-│  │ - _initialize() → None          │   │   │ - _initialize() → None      │ │
-│  │ - _get_tools() → None           │   │   │ - _get_tools() → None       │ │
-│  │ - _send_request(...) → Dict     │   │   │ - _call_github_tool(...) → Dict │ │
-│  │ - _send_notification(...) → None│   │   │ - _call_generic_tool(...) → Dict │ │
-│  └─────────────────────────────────┘   │   └─────────────────────────────┘ │
-│                                        │                                   │
+│  ┌─────────────────────────────────────────────────────────────────────┐    │
+│  │                    EnhancedMCPHost                                  │    │
+│  ├─────────────────────────────────────────────────────────────────────┤    │
+│  │ - config_path: str                                                  │    │
+│  │ - servers: Dict[str, BaseMCPServer]                                 │    │
+│  │ - config: Dict[str, Any]                                            │    │
+│  ├─────────────────────────────────────────────────────────────────────┤    │
+│  │ + start_all_servers() → None                                        │    │
+│  │ + call_tool(server: str, tool: str, args: Dict) → Optional[Dict]    │    │
+│  │ + get_available_tools() → Dict[str, List[Dict]]                     │    │
+│  │ + stop_all_servers() → None                                         │    │ 
+│  │ - _load_config() → Dict                                             │    │
+│  └─────────────────────────────────────────────────────────────────────┘    │
+│                              │                                              │
+│                              │ manages                                      │
+│                              ▼                                              │
+│  ┌─────────────────────────────────────────────────────────────────────┐    │
+│  │                      BaseMCPServer                                  │    │
+│  │                       (Abstract)                                    │    │
+│  ├─────────────────────────────────────────────────────────────────────┤    │
+│  │ \# name: str                                                        │    │
+│  │ \# description: str                                                 │    │
+│  │ \# available_tools: List[Dict]                                      │    │
+│  │ \# initialized: bool                                                │    │
+│  ├─────────────────────────────────────────────────────────────────────┤    │
+│  │ + start() → None                          (abstract)                │    │
+│  │ + call_tool(tool_name: str, args: Dict) → Optional[Dict] (abstract) │    │
+│  │ + stop() → None                           (abstract)                │    │
+│  └─────────────────────────────────────────────────────────────────────┘    │
+│                              △                                              │
+│                              │                                              │
+│                    ┌─────────┴─────────┐                                    │
+│                    │                   │                                    │
+│  ┌─────────────────────────────────┐   │   ┌─────────────────────────────┐  │
+│  │      LocalMCPServer             │   │   │     RemoteMCPServer         │  │
+│  ├─────────────────────────────────┤   │   ├─────────────────────────────┤  │
+│  │ - command: str                  │   │   │ - url: str                  │  │
+│  │ - args: List[str]               │   │   │ - headers: Dict[str, str]   │  │
+│  │ - process: subprocess.Popen     │   │   │ - session: ClientSession    │  │
+│  ├─────────────────────────────────┤   │   ├─────────────────────────────┤  │
+│  │ + start() → None                │   │   │ + start() → None            │  │
+│  │ + call_tool(...) → Dict         │   │   │ + call_tool(...) → Dict     │  │
+│  │ + stop() → None                 │   │   │ + stop() → None             │  │
+│  │ - _initialize() → None          │   │   │ - _initialize() → None      │  │
+│  │ - _get_tools() → None           │   │   │ - _get_tools() → None       │  │
+│  │ - _send_request(...) → Dict     │   │   │ - _call_github_tool(...) → Dict│  │
+│  │ - _send_notification(...) → None│   │   │ - _call_generic_tool(...) → Dict│  │
+│  └─────────────────────────────────┘   │   └─────────────────────────────┘  │
+│                                        │                                    │
 └─────────────────────────────────────────────────────────────────────────────┘
 
 ```
@@ -983,46 +977,3 @@ PerformanceOptimizations = {
 
 This comprehensive low-level design provides detailed implementation specifications for all components of the enhanced MCP Local Implementation, ensuring robust, scalable, and maintainable code architecture.
 ```
-
-These documents provide comprehensive technical specifications for your enhanced MCP implementation, covering both the high-level architectural decisions and the detailed implementation specifications needed for development and maintenance.
-
-<div style="text-align: center">⁂</div>
-
-[^1]: main.py
-
-[^2]: mcp_host.py
-
-[^3]: ollama_client.py
-
-[^4]: calculator_server.py
-
-[^5]: file_server.py
-
-[^6]: research_server.py
-
-[^7]: requirements.txt
-
-[^8]: mcp_config.json
-
-[^9]: README.md
-
-[^10]: https://modelcontextprotocol.io/docs/concepts/architecture
-
-[^11]: https://www.gigaspaces.com/data-terms/model-context-protocol
-
-[^12]: https://www.byteplus.com/en/topic/541952
-
-[^13]: https://www.linkedin.com/pulse/system-design-modern-generative-ai-chatbot-akash-srivastava-35hjc
-
-[^14]: https://www.anthropic.com/news/model-context-protocol
-
-[^15]: https://www.phdata.io/blog/model-context-protocol-mcp-a-leap-forward-and-what-you-need-to-watch-for/
-
-[^16]: https://read.highgrowthengineer.com/p/mcps-simply-explained
-
-[^17]: https://www.byteplus.com/en/topic/542105?title=mcp-architectural-decisions-key-insights-best-practices
-
-[^18]: https://www.reddit.com/r/LLMDevs/comments/1jbqegg/model_context_protocol_mcp_clearly_explained/
-
-[^19]: https://www.philschmid.de/mcp-introduction
-
