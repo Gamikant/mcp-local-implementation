@@ -547,3 +547,36 @@
 2025-06-20 10:49:54,740 - mcp_host - INFO - Stopped local MCP server: calculator
 2025-06-20 10:49:54,740 - mcp_host - INFO - Stopped remote MCP server: github
 2025-06-20 10:49:54,740 - __main__ - INFO - Chatbot cleanup completed
+2025-06-20 11:03:08,254 - __main__ - INFO - Initializing MCP Chatbot...
+2025-06-20 11:03:08,279 - mcp_host - INFO - Started local MCP server: research
+2025-06-20 11:03:08,883 - mcp_host - INFO - Initialized local MCP server: research
+2025-06-20 11:03:08,984 - mcp_host - INFO - Got 2 tools from research: ['search_papers', 'extract_info']
+2025-06-20 11:03:08,987 - mcp_host - INFO - Started local MCP server: file
+2025-06-20 11:03:09,592 - mcp_host - INFO - Initialized local MCP server: file
+2025-06-20 11:03:09,694 - mcp_host - INFO - Got 4 tools from file: ['list_files', 'read_file', 'write_file', 'delete_file']
+2025-06-20 11:03:09,696 - mcp_host - INFO - Started local MCP server: calculator
+2025-06-20 11:03:10,300 - mcp_host - INFO - Initialized local MCP server: calculator
+2025-06-20 11:03:10,403 - mcp_host - INFO - Got 6 tools from calculator: ['add', 'subtract', 'multiply', 'divide', 'power', 'square_root']
+2025-06-20 11:03:10,420 - mcp_host - INFO - Started remote MCP server: github
+2025-06-20 11:03:10,420 - mcp_host - INFO - Initialized remote MCP server: github
+2025-06-20 11:03:10,421 - mcp_host - INFO - Got 3 tools from github: ['get_repository', 'list_files', 'get_file_content']
+2025-06-20 11:03:11,422 - __main__ - INFO - MCP Chatbot initialized successfully!
+2025-06-20 11:03:36,756 - __main__ - INFO - Calling tool list_files on server github with args: {'owner': 'Gamikant', 'repo': 'deep-art'}
+2025-06-20 11:03:37,208 - __main__ - INFO - Raw tool result: {'result': {'content': [{'type': 'text', 'text': '[\n  "README.md",\n  "backend",\n  "docker-compose.yml",\n  "frontend"\n]'}]}}
+2025-06-20 11:04:02,987 - __main__ - INFO - Calling tool list_files on server file with args: {'directory': '.'}
+2025-06-20 11:04:02,987 - mcp_host - INFO - Sending tool request to file: {'jsonrpc': '2.0', 'id': 3, 'method': 'tools/call', 'params': {'name': 'list_files', 'arguments': {'directory': '.'}}}
+2025-06-20 11:04:03,089 - mcp_host - INFO - Tool response from file: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': "['.env', '.git/', 'README.md', 'System Design.md', 'chatbot/', 'config/', 'data/', 'logs/', 'mcp_servers/', 'papers/', 'requirements.txt']"}]}}
+2025-06-20 11:04:03,090 - __main__ - INFO - Raw tool result: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': "['.env', '.git/', 'README.md', 'System Design.md', 'chatbot/', 'config/', 'data/', 'logs/', 'mcp_servers/', 'papers/', 'requirements.txt']"}]}}
+2025-06-20 11:04:28,103 - __main__ - INFO - Calling tool multiply on server calculator with args: {'a': 5.66, 'b': 34.232}
+2025-06-20 11:04:28,103 - mcp_host - INFO - Sending tool request to calculator: {'jsonrpc': '2.0', 'id': 3, 'method': 'tools/call', 'params': {'name': 'multiply', 'arguments': {'a': 5.66, 'b': 34.232}}}
+2025-06-20 11:04:28,205 - mcp_host - INFO - Tool response from calculator: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': '193.75312'}]}}
+2025-06-20 11:04:28,206 - __main__ - INFO - Raw tool result: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': '193.75312'}]}}
+2025-06-20 11:05:03,459 - __main__ - INFO - Calling tool search_papers on server research with args: {'topic': 'AI development history'}
+2025-06-20 11:05:03,459 - mcp_host - INFO - Sending tool request to research: {'jsonrpc': '2.0', 'id': 3, 'method': 'tools/call', 'params': {'name': 'search_papers', 'arguments': {'topic': 'AI development history'}}}
+2025-06-20 11:05:26,247 - mcp_host - INFO - Tool response from research: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': 'Found 5 papers: 2101.04283v1, 2208.04148v1, 1906.06668v2, 2206.03217v2, 2504.13360v1'}]}}
+2025-06-20 11:05:26,247 - __main__ - INFO - Raw tool result: {'jsonrpc': '2.0', 'id': 3, 'result': {'content': [{'type': 'text', 'text': 'Found 5 papers: 2101.04283v1, 2208.04148v1, 1906.06668v2, 2206.03217v2, 2504.13360v1'}]}}
+2025-06-20 12:31:12,928 - mcp_host - INFO - Stopped local MCP server: research
+2025-06-20 12:31:12,934 - mcp_host - INFO - Stopped local MCP server: file
+2025-06-20 12:31:12,938 - mcp_host - INFO - Stopped local MCP server: calculator
+2025-06-20 12:31:12,939 - mcp_host - INFO - Stopped remote MCP server: github
+2025-06-20 12:31:12,939 - __main__ - INFO - Chatbot cleanup completed

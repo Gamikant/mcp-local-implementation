@@ -1,0 +1,51 @@
+{
+  "2101.04283v1": {
+    "title": "A Brief Survey of Associations Between Meta-Learning and General AI",
+    "authors": [
+      "Huimin Peng"
+    ],
+    "summary": "This paper briefly reviews the history of meta-learning and describes its\ncontribution to general AI. Meta-learning improves model generalization\ncapacity and devises general algorithms applicable to both in-distribution and\nout-of-distribution tasks potentially. General AI replaces task-specific models\nwith general algorithmic systems introducing higher level of automation in\nsolving diverse tasks using AI. We summarize main contributions of\nmeta-learning to the developments in general AI, incl...",
+    "pdf_url": "http://arxiv.org/pdf/2101.04283v1",
+    "published": "2021-01-12"
+  },
+  "2208.04148v1": {
+    "title": "A Historical Interaction between Artificial Intelligence and Philosophy",
+    "authors": [
+      "Youheng Zhang"
+    ],
+    "summary": "This paper reviews the historical development of AI and representative\nphilosophical thinking from the perspective of the research paradigm.\nAdditionally, it considers the methodology and applications of AI from a\nphilosophical perspective and anticipates its continued advancement. In the\nhistory of AI, Symbolism and connectionism are the two main paradigms in AI\nresearch. Symbolism holds that the world can be explained by symbols and dealt\nwith through precise, logical processes, but connection...",
+    "pdf_url": "http://arxiv.org/pdf/2208.04148v1",
+    "published": "2022-07-23"
+  },
+  "1906.06668v2": {
+    "title": "Principles alone cannot guarantee ethical AI",
+    "authors": [
+      "Brent Mittelstadt"
+    ],
+    "summary": "AI Ethics is now a global topic of discussion in academic and policy circles.\nAt least 84 public-private initiatives have produced statements describing\nhigh-level principles, values, and other tenets to guide the ethical\ndevelopment, deployment, and governance of AI. According to recent\nmeta-analyses, AI Ethics has seemingly converged on a set of principles that\nclosely resemble the four classic principles of medical ethics. Despite the\ninitial credibility granted to a principled approach to AI...",
+    "pdf_url": "http://arxiv.org/pdf/1906.06668v2",
+    "published": "2019-06-16"
+  },
+  "2206.03217v2": {
+    "title": "A Perspective on K-12 AI Education",
+    "authors": [
+      "Nathan Wang",
+      "Paul Tonko",
+      "Nikil Ragav",
+      "Michael Chungyoun",
+      "Jonathan Plucker"
+    ],
+    "summary": "Artificial intelligence (AI), which enables machines to learn to perform a\ntask by training on diverse datasets, is one of the most revolutionary\ndevelopments in scientific history. Although AI and especially deep learning is\nrelatively new, it has already had transformative impact on medicine, biology,\ntransportation, entertainment, and beyond. As AI changes our daily lives at an\nincreasingly fast pace, we are challenged with preparing our society for an\nAI-driven future. To this end, a critica...",
+    "pdf_url": "http://arxiv.org/pdf/2206.03217v2",
+    "published": "2022-05-04"
+  },
+  "2504.13360v1": {
+    "title": "In between myth and reality: AI for math -- a case study in category theory",
+    "authors": [
+      "R\u0103zvan Diaconescu"
+    ],
+    "summary": "Recently, there is an increasing interest in understanding the performance of\nAI systems in solving math problems. A multitude of tests have been performed,\nwith mixed conclusions. In this paper we discuss an experiment we have made in\nthe direction of mathematical research, with two of the most prominent\ncontemporary AI systems. One of the objective of this experiment is to get an\nunderstanding of how AI systems can assist mathematical research. Another\nobjective is to support the AI systems de...",
+    "pdf_url": "http://arxiv.org/pdf/2504.13360v1",
+    "published": "2025-04-17"
+  }
+}
