@@ -310,8 +310,6 @@ Result Processing → Error Handling → Response Formatting → Context Integra
 
 This enhanced high-level design provides a robust, scalable, and secure foundation for the MCP Local Implementation, enabling seamless integration of AI capabilities with diverse data sources and computational tools through both local and remote server architectures.
 
-# Low-Level Design (LLD)
-
 # MCP Local Implementation - Low-Level Design (LLD)
 
 ## Detailed Component Design
@@ -507,14 +505,12 @@ class MCPChatbot:
         - Critical rules section
         - Concrete examples for each server type
         """
-    ```
-
+```
 ### EnhancedMCPHost Class
 
 #### Server Management Implementation
 
 ```
-
 class EnhancedMCPHost:
 """Enhanced MCP host supporting multiple server types"""
 
@@ -585,7 +581,7 @@ class EnhancedMCPHost:
         - InputSchema follows JSON Schema specification
         - Required and optional parameters clearly defined
         """
-    ```
+```
 
 ### BaseMCPServer Abstract Class
 
@@ -638,8 +634,7 @@ class BaseMCPServer(ABC):
         - Cleanup resources
         - Terminate processes/connections
         """
-    ```
-
+```
 ### LocalMCPServer Implementation
 
 #### Subprocess Communication
@@ -714,14 +709,12 @@ class LocalMCPServer(BaseMCPServer):
             }
         }
         """
-    ```
-
+```
 ### RemoteMCPServer Implementation
 
 #### HTTPS Communication
 
 ```
-
 class RemoteMCPServer(BaseMCPServer):
 """Remote MCP Server using HTTPS communication"""
 
@@ -786,8 +779,7 @@ class RemoteMCPServer(BaseMCPServer):
         - Replacement: os.getenv(VARIABLE_NAME, original_value)
         - Used for secure token management
         """
-    ```
-
+```
 ## Data Models and Schemas
 
 ### Tool Schema Definition
